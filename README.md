@@ -1,2 +1,10 @@
-# data-prep-kit-examples
+# Data Prep Kit Examples
+
 Examples of using IBM data prep kit
+
+## Milvus
+
+[Milvus](https://milvus.io/) is a popular vector database.
+
+- [A quick start of Milvus](milvus/milvus_1_quick_start.ipynb) - Run an embedded milvus database
+- [Semantic search of movie plots using Milvus](milvus/milvus_2_movie_search.ipynb) - load movie data, index it with embeddings, upload the data into milvus and run semantic queries
