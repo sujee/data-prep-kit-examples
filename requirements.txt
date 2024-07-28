@@ -1,0 +1,19 @@
+# Milvus
+pymilvus
+pymilvus[model]
+
+# datasets
+datasets
+
+## Torch and bmeddings
+torch
+sentence-transformers
+
+# Utils
+python-dotenv==1.0.0
+
+## Python Utils
+ipykernel
+ipython
+chardet==5.2.0
+charset-normalizer==3.3.2
