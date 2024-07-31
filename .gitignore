@@ -1,2 +1,5 @@
 *.db
 *.lock
+
+#rag/data/granite-docs/output/
+output/
