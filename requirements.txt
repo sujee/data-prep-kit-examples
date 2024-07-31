@@ -9,6 +9,10 @@ datasets
 torch
 sentence-transformers
 
+## Parquet
+pandas 
+pyarrow
+
 # Utils
 python-dotenv==1.0.0
 
