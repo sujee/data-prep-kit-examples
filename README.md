@@ -4,7 +4,7 @@ Examples of using IBM data prep kit
 
 ## Setup Python Env
 
-[setup guide](./setup/setup-python-dev-env.md)
+[Instructions for setting up dev environment](setup-python-dev-env.md)
 
 ## Milvus
 
@@ -16,8 +16,5 @@ Examples of using IBM data prep kit
 
 ## RAG
 
-| Documents          | Framework   | Vector DB | Embedding Model             | LLM                 | Code                                                      | Notes                |
-|--------------------|-------------|-----------|-----------------------------|---------------------|-----------------------------------------------------------|----------------------|
-| Granite Docs (pdf) | llama-index | Milvus    | BAAI/bge-small-en-v1.5 (OS) | Llama 3 @ Replicate | [code](rag/rag_2_llamaindex_milvus_llama_replicate.ipynb) | Need REPLICATE TOKEN |
-| Milvus FAQ (md)    | None        | Milvus    | BAAI/bge-small-en-v1.5 (OS) | Llama 3 @ Replicate | [code](rag/rag_3_milvus_llama_replicate.ipynb)            | Need REPLICATE TOKEN |
-|                    |             |           |                             |                     |                                                           |                      |
+See [RAG with data prep kit](./rag/README.md)
+
