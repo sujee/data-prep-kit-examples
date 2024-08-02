@@ -34,8 +34,6 @@ llama-index-llms-replicate
 ### Vector dbs
 llama-index-vector-stores-milvus
 
-## llama-index-vector-stores-mongodb==0.1.4
-
 
 
 # --- Utils
