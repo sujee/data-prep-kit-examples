@@ -4,6 +4,42 @@ This folder has examples of RAG applications with data prep kit.
 
 These examples are designed to run on a local python dev environment.  See [setup-python-dev.md](../setup-python-dev-env.md) for instructions.
 
+[Overview of RAG process](#rag-process)
+
+## Code Matrix
+
+Here is an easy to navigate matrix of various RAG query examples.  
+
+You can easily find the code the uses the combination you are looking for.
+
+### Example 1: Granite Documents PDF
+
+#### Ex 1.1 - Ingestion using Data Prep Kit
+
+`PDF --> Process with: Data Prep Kit --> Milvus --> query with: Llama LLM on replicate`
+
+- [Clean up and processing documents](rag_1_A_dataprepkit_process_data.ipynb) - TODO
+- [Loading data into Milvus](rag_1_B_dataprepkit_load_data_into_milvus.ipynb)
+- [Query using llama LLM @ Replicate](rag_1_C_dataprepkit_query_llama_replicate.ipynb)
+
+#### Ex 1.2 - Ingestion and query using Llama-Index
+
+`PDF --> Process with: llama-index --> Milvus --> query with: llama-index --> Llama LLM on replicate`
+
+- [Load and query data with Llama-index](rag_2_llamaindex_milvus_llama_replicate.ipynb)
+
+### Example 2 : Walmart documents (PDF)
+
+---
+
+
+## Handy Utilities
+
+[Inspect parquet files](./utils_inspect_parquet.ipynb) - Handy for seeing the contents of parquet files
+
+[Vector search](./vector_search.ipynb) - do a quick vector search of any collection in Milvus DB
+
+
 ## RAG Process
 
 RAG conists of two phases
@@ -87,13 +123,7 @@ Now we get to see the answer provided by LLM 👏
 
 [Code below](#rag-query-code)
 
-
-## RAG Query Code
-
-Here is an easy to navigate matrix of various RAG query examples.  
-
-You can easily find the code the uses the combination you are looking for.
-
+## Code Matrix - OLD
 
 | Example | Documents          | Framework   | Vector DB | Embedding Model             | LLM                 | Code                                                    | Notes                |
 |---------|--------------------|-------------|-----------|-----------------------------|---------------------|---------------------------------------------------------|----------------------|
@@ -101,4 +131,3 @@ You can easily find the code the uses the combination you are looking for.
 | 2       | Granite Docs (pdf) | llama-index | Milvus    | BAAI/bge-small-en-v1.5 (OS) | Llama 3 @ Replicate | [code](rag_2_llamaindex_milvus_llama_replicate.ipynb)   | Need REPLICATE TOKEN |
 | 3       | Milvus FAQ (md)    | None        | Milvus    | BAAI/bge-small-en-v1.5 (OS) | Llama 3 @ Replicate | [code](rag_3_milvus_llama_replicate.ipynb)              | Need REPLICATE TOKEN |
 |         |                    |             |           |                             |                     |                                                         |                      |
-
