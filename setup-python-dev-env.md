@@ -23,3 +23,16 @@ install all needed packages
 pip install -r requirements.txt
 ```
 
+## Step-3: Setup a Jupyter / Ipython Kernel
+
+To use Jupyter notebooks, we will define a kernel specific to this environment
+
+```bash
+## create a new jupyter kernel (same name as the conda env name)
+ipython kernel install --user --name=data-prep-kit-1
+
+# see installed kernels
+jupyter kernelspec list
+```
+
+When running Jupyter notebooks, be sure to select this kernel
