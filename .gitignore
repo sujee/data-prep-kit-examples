@@ -1,7 +1,13 @@
+## embedded database files
 *.db
 *.lock
 
-#rag/data/granite-docs/output/
+## Output created by processors
 output/
 
+## pyenv file with configuration and secrets like tokens, passwords
 .env
+
+## File system artifacts
+.directory
+.DS_Store
