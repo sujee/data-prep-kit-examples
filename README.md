@@ -17,6 +17,11 @@ Noteworthy  features:
 - tokenizing and chunking
 - generating embeddings
 
+## Events
+
+- [2024-08-08 Open Source AI Demo Nigh, San Francisco, CA](events/2024-08-08__open-source-ai-demo-night.md)
+
+**Now, on to the code**
 
 ## Setup Python Dev Env
 
