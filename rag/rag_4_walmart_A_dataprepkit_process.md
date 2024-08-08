@@ -103,7 +103,7 @@ Here are the commands to do the above:
 rm -rf data-prep-kit-examples/rag/data/walmart-reports-1/output_final/*
 
 # copy generated files
-cp    data-prep-kit/examples/notebooks/language/output_walmart/* \
+cp    data-prep-kit/examples/notebooks/language/output_walmart/09_encoder_out/* \
        data-prep-kit-examples/rag/data/walmart-reports-1/output_final/
 ```
 
