@@ -8,8 +8,9 @@ You can install Anaconda by following the [guide here](https://www.anaconda.com/
 
 We will create an environment for this workshop with all the required libraries installed.
 
+**Make sure python version is 3.11**
+
 ```bash
-# need python 3.11 for torch libraries
 conda create -n data-prep-kit-1 -y python=3.11
 
 # activate the new conda environment

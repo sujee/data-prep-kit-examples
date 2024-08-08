@@ -1,36 +1,10 @@
 # RAG with Data Prep Kit
 
+
+
 This folder has examples of RAG applications with data prep kit.
 
 These examples are designed to run on a local python dev environment.  See [setup-python-dev.md](../setup-python-dev-env.md) for instructions.
-
-[Overview of RAG process](#rag-process)
-
-## Code Matrix
-
-Here is an easy to navigate matrix of various RAG query examples.  
-
-You can easily find the code the uses the combination you are looking for.
-
-### Example 1: Granite Documents PDF
-
-#### Ex 1.1 - Ingestion using Data Prep Kit
-
-`PDF --> Process with: Data Prep Kit --> Milvus --> query with: Llama LLM on replicate`
-
-- [Clean up and processing documents](rag_1_A_dataprepkit_process_data.ipynb) - TODO
-- [Loading data into Milvus](rag_1_B_dataprepkit_load_data_into_milvus.ipynb)
-- [Query using llama LLM @ Replicate](rag_1_C_dataprepkit_query_llama_replicate.ipynb)
-
-#### Ex 1.2 - Ingestion and query using Llama-Index
-
-`PDF --> Process with: llama-index --> Milvus --> query with: llama-index --> Llama LLM on replicate`
-
-- [Load and query data with Llama-index](rag_2_llamaindex_milvus_llama_replicate.ipynb)
-
-### Example 2 : Walmart documents (PDF)
-
----
 
 
 ## Handy Utilities
@@ -38,6 +12,57 @@ You can easily find the code the uses the combination you are looking for.
 [Inspect parquet files](./utils_inspect_parquet.ipynb) - Handy for seeing the contents of parquet files
 
 [Vector search](./vector_search.ipynb) - do a quick vector search of any collection in Milvus DB
+
+## RAG
+
+[Details of RAG process](#rag-process) see below
+
+![](../media/rag-overview-2.png)
+
+
+## Featured Example: Walmart financial documents search
+
+**Workflow** : 
+`PDFs --> Process with Data Prep Kit --> Milvus --> query with Llama LLM on replicate`
+
+### Data Ingest Pipeline
+
+Data prep kit (DPK) is used as follows:
+
+- We extract text from PDF (step 1)
+- perform dedupe 
+- split document into chunks (step 2)
+- vectorize chunks using embedding models (step 3)
+
+
+**Input Data** is PDF documents: [see here](data/walmart-reports-1/input/).  
+
+**De-Duping**
+
+We have introduced a duplicate document in our [input](data/walmart-reports-1/input/).  
+
+Don't worry, DPK will perform de-dupe for us.  You can see in the [output](data/walmart-reports-1/output_final/) 👍
+
+[output data](rag/data/walmart-reports-1/output_final/) is processed parquet files.
+
+Code:
+
+- Steps 1, 2 & 3: [Cleanup and process documents, break them into chunks and calculate embeddings](rag_4_walmart_A_dataprepkit_process.md)
+- Step 4: [Save the generated output to vector database](./rag_4_walmart_B_load_data_into_milvus.ipynb)
+- Steps 5, 6, 7: [Perform vector search on the data](./rag_4_walmart_C_vector_search.ipynb)
+- Steps 5, 6, 7, 8 & 9: [Query the documents using LLM](./rag_4_walmart_D_dataprepkit_query_llama_replicate.ipynb)
+
+And for comparison, here is the [code](rag_4_walmart_E_llamaindex_milvus_llama_replicate.ipynb) that uses llama-index to process PDFs and query
+
+## Code Matrix
+
+| Example | Documents          | Processing Framework                                                          | Vector DB                                                          | LLM                                                                              | Notes |
+|---------|--------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------|----------------------------------------------------------------------------------|-------|
+| 1       | Granite Docs (pdf) | Data Prep Kit <br> [code](rag_1_granitedocs_A_dataprepkit_process_data.ipynb) | Milvus <br>[code](rag_1_granitedocs_B_load_data_into_milvus.ipynb) | Llama 3 @ Replicate <br> [code](rag_1_granitedocs_C_query_llama_replicate.ipynb) |       |
+| 2       | Granite Docs (pdf) | llama-index <br>[code](rag_2_granitedocs_llamaindex_llama_replicate.ipynb)    | Milvus <br> same code                                              | Llama 3 @ Replicate <br> same code                                               |       |
+| 3       | Milvus FAQ (md)    | None                                                                          | Milvus                                                             | Llama 3 @ Replicate                                                              |       |
+|         |                    |                                                                               |                                                                    |                                                                                  |       |
+
 
 
 ## RAG Process

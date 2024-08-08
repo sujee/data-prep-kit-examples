@@ -1,6 +1,22 @@
 # Data Prep Kit Examples
 
-Examples of using IBM data prep kit
+## Introducing Data Prep Kit (DPK)
+
+Whether you're performing RAG (Retrieval-Augmented Generation) or fine-tuning a model, a significant portion of your time will be dedicated to cleaning (de-duping, removing markups, etc.) and shaping the data.
+
+[Data Prep Kit](https://github.com/IBM/data-prep-kit) can help you with wrangling data.  
+
+Noteworthy  features:
+
+- de-duping documents (exact dedupe and [fuzzy dedupe](https://github.com/IBM/data-prep-kit/tree/dev/transforms/universal/fdedup/ray#readme))
+- can handle documents and code
+- extract text from PDFs
+- language detection (spoken languages and programming languages)
+- malware detection
+- [document quality checking](https://github.com/IBM/data-prep-kit/blob/dev/transforms/language/doc_quality/python/README.md)
+- tokenizing and chunking
+- generating embeddings
+
 
 ## Setup Python Env
 
