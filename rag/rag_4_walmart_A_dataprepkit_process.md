@@ -53,8 +53,20 @@ copy input pdf files
 - into `data-prep-kit/examples/notebooks/language/input_data_walmart`
 
 copy the notebook 
-- from `data-prep-kit-examplesrag/rag_4_walmart_A_dataprepkit_process_2.ipynb`
+- from `data-prep-kit-examples/rag/rag_4_walmart_A_dataprepkit_process_2.ipynb`
 - to `data-prep-kit/examples/notebooks/language/`
+
+Here are the commands to do the above:
+
+```bash
+## Assuming you are in the parent directory of 'data-prep-kit' and 'data-prep-kit-examples'
+
+cp  -a   data-prep-kit-examples/rag/data/walmart-reports-1/input \
+       data-prep-kit/examples/notebooks/language/input_data_walmart 
+
+cp    data-prep-kit-examples/rag/rag_4_walmart_A_dataprepkit_process_2.ipynb \
+    data-prep-kit/examples/notebooks/language/
+```
 
 
 ## Step-5: Run the code
@@ -78,9 +90,22 @@ After a few minutes we will have output data stored in `output_walmart`
 
 copy the generated output files:
 
-- create directory  `data-prep-kit-examplesrag/data/walmart-reports-1/output_final`
+- create directory  `data-prep-kit-examples/rag/data/walmart-reports-1/output_final`
 - copy the generated parquet files from `data-prep-kit/examples/notebooks/language/output_walmart`
-- to `data-prep-kit-examplesrag/data/walmart-reports-1/output_final`
+- to `data-prep-kit-examples/rag/data/walmart-reports-1/output_final`
+
+Here are the commands to do the above:
+
+```bash
+## Assuming you are in the parent directory of 'data-prep-kit' and 'data-prep-kit-examples'
+
+# clear the dir contents
+rm -rf data-prep-kit-examples/rag/data/walmart-reports-1/output_final/*
+
+# copy generated files
+cp    data-prep-kit/examples/notebooks/language/output_walmart/* \
+       data-prep-kit-examples/rag/data/walmart-reports-1/output_final/
+```
 
 ## Step-7: Next Steps
 
