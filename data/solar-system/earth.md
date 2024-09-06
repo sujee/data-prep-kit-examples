@@ -4,7 +4,7 @@
 
 Our solar system is a vast and fascinating expanse, comprising eight planets, five dwarf planets, numerous moons, asteroids, comets, and other celestial bodies. At its center lies the star we call the Sun.
 
-For more details see Chapter 1!
+For more details about our Solar system see Chapter 1.
 
 ## Earth 
 
