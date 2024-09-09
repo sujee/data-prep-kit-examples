@@ -1,3 +1,14 @@
+## Data prep kit
+## latest
+# data-prep-toolkit-transforms
+# data-prep-toolkit-transforms-ray
+
+## pinned
+data-prep-toolkit-transforms==0.2.1.dev1
+data-prep-toolkit-transforms-ray==0.2.1.dev1
+
+
+
 # Milvus
 pymilvus
 pymilvus[model]
@@ -5,12 +16,12 @@ pymilvus[model]
 # datasets
 datasets
 
-## Torch and bmeddings
+## Torch and enbeddings
 torch
 sentence-transformers
 
 ## --- Parquet
-pandas 
+pandas
 pyarrow
 
 ## --- Replicate
@@ -20,28 +31,31 @@ replicate
 
 llama-index
 
-### embedding models
+### llama-index embedding models
 llama-index-embeddings-huggingface
 ## llama-index-embeddings-mistralai
 ## llama-index-embeddings-openai== 0.1.7
 
-### LLM interfaces
+### llama-index LLM interfaces
 llama-index-llms-replicate
 ## llama-index-llms-mistralai
 ## llama-index-llms-openai==0.1.12
 # llama-index-llms-llama-cpp
 
-### Vector dbs
+### llama-index Vector dbs
 llama-index-vector-stores-milvus
 
 
 
 # --- Utils
 python-dotenv==1.0.0
+humanfriendly
 
-## --- Python Utils
+## --- Jupyter Utils
+jupyterlab
 ipykernel
 ipython
+ipywidgets
 IProgress
 chardet==5.2.0
 charset-normalizer==3.3.2
