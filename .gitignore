@@ -4,6 +4,7 @@
 
 ## Output created by processors
 output*/
+archived/
 
 ## pyenv file with configuration and secrets like tokens, passwords
 .env
