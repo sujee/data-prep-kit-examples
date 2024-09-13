@@ -23,19 +23,29 @@ Noteworthy  features:
 
 **Now, on to the code**
 
-## Setup Python Dev Env
+## How to Run the Code
+
+Some notebooks can be run on Google colab.
+
+But it is recommended you setup local python dev environment.
 
 [Instructions for setting up dev environment](setup-python-dev-env.md)
+
+## Data Prep Kit Examples
+
+[Data prep kit demos](./dpk-intro/README.md) - Get to know data prep kit features
+
+[RAG examples](rag/README.md) 
+
 
 ## Milvus - Vector Database
 
 [Milvus](https://milvus.io/) is a popular vector database that is **open source**
 
-- [A quick start of Milvus](milvus/milvus_1_quick_start.ipynb) - Run an embedded milvus database
-- [Vector search of movie plots using Milvus](milvus/milvus_2_movie_search.ipynb) - load movie data, index it with embeddings, upload the data into milvus and run semantic queries
+[A quick start of Milvus](milvus/milvus_1_quick_start.ipynb) - Run an embedded milvus 
+
+[Vector search of movie plots using Milvus](milvus/milvus_2_movie_search.ipynb) - load movie data, index it with embeddings, upload the data into milvus and run semantic queries
 
 
-## RAG Demos
 
-See [RAG with data prep kit](./rag/README.md)
 
