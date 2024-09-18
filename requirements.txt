@@ -4,10 +4,12 @@
 # data-prep-toolkit-transforms-ray
 
 ## pinned
+# data-prep-toolkit-transforms==0.2.1.dev1
+# data-prep-toolkit-transforms-ray==0.2.1.dev1
 data-prep-toolkit-transforms==0.2.1.dev3
 data-prep-toolkit-transforms-ray==0.2.1.dev3
 
-
+deepsearch-toolkit
 
 # Milvus
 pymilvus
