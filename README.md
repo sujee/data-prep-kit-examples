@@ -19,7 +19,9 @@ Noteworthy  features:
 
 ## Events
 
-- [2024-08-08 Open Source AI Demo Nigh, San Francisco, CA](events/2024-08-08__open-source-ai-demo-night.md)
+- [2024-09-21: Hands on RAG workshop @ Data Riders meetup](events/2024-09-21__RAG-workshop-data-riders.md) - Hacker Dojo, Mountain View, CA
+
+- [2024-08-08: Open Source AI Demo Nigh, San Francisco, CA](events/2024-08-08__open-source-ai-demo-night.md)
 
 **Now, on to the code**
 

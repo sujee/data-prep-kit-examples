@@ -5,6 +5,7 @@
 ## Output created by processors
 output*/
 archived/
+*.zip
 
 ## pyenv file with configuration and secrets like tokens, passwords
 .env
@@ -16,3 +17,4 @@ archived/
 
 ## Python output
 __pycache__
+.ipynb_checkpoints/
