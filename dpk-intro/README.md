@@ -1,4 +1,4 @@
-# Data Prep Kit Examples
+# Data Prep Kit Examples (DEV1 Release)
 
 ## Processing Documents
 
@@ -8,7 +8,7 @@ This notebook will demonstrate processing PDFs
 
 `PDFs ---> text ---> chunks --->   exact dedupe ---> fuzzy dedupe ---> embeddings`
 
-[python version](dpk_intro_1_python.ipynb)  &nbsp;   |   &nbsp;  [ray version](dpk_intro_1_ray.ipynb)
+[ray version](dpk_intro_1_ray.ipynb)
 
 ### Document Quality
 
