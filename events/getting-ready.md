@@ -8,6 +8,8 @@ You can install Anaconda by following the [guide here](https://www.anaconda.com/
 
 Get a **free** account at [replicate](https://replicate.com/home)
 
+💰 Use this [invite](https://replicate.com/invites/a8717bfe-2f3d-4a52-88ed-1356231cdf03) to add some credit to your Replicate account!
+
 Once you sign up, **create a token**
 
 The free account will give you a few API calls for free.  That is enough for this workshop.

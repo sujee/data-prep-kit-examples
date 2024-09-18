@@ -12,6 +12,18 @@ Here are the [getting-ready](getting-ready.md) instructions.
 
 Please try to complete as much as the setup **before attending** the workshop.
 
+## Using this Repo
+
+We will use `dev1` branch of this repo for this workshop.
+
+```bash
+git  clone  https://github.com/sujee/data-prep-kit-examples
+
+cd   data-prep-kit-examples
+
+git checkout dev1
+```
+
 ## Agenda
 
 ### 1. Introduction and networking
