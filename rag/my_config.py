@@ -11,28 +11,39 @@ MY_CONFIG = MyConfig ()
 
 # MY_CONFIG.INPUT_DATA_DIR = "../data/solar-system"
 # MY_CONFIG.OUTPUT_FOLDER = "output-solar-system"
+# MY_CONFIG.COLLECTION_NAME = 'solar_system'
+
 
 MY_CONFIG.INPUT_DATA_DIR = "../data/fomc"
 MY_CONFIG.OUTPUT_FOLDER = "output-fomc"
+MY_CONFIG.COLLECTION_NAME = 'fomc'
+
 
 # MY_CONFIG.INPUT_DATA_DIR = "../data/papers"
 # MY_CONFIG.OUTPUT_FOLDER = "output-papers"
+# MY_CONFIG.COLLECTION_NAME = 'papers'
+
 
 # MY_CONFIG.INPUT_DATA_DIR = "../data/10k"
 # MY_CONFIG.OUTPUT_FOLDER = "output-10k"
+# MY_CONFIG.COLLECTION_NAME = '10k'
+
 
 # MY_CONFIG.INPUT_DATA_DIR = "../data/walmart-reports-1"
 # MY_CONFIG.OUTPUT_FOLDER = "output-walmart-reports-1"
+# MY_CONFIG.COLLECTION_NAME = 'walmart'
+
 
 # MY_CONFIG.INPUT_DATA_DIR = "../data/resumes"
 # MY_CONFIG.OUTPUT_FOLDER = "output-resumes"
+# MY_CONFIG.COLLECTION_NAME = 'resumes'
+
 
 MY_CONFIG.OUTPUT_FOLDER_FINAL = os.path.join(MY_CONFIG.OUTPUT_FOLDER , "output_final")
 ### -------------------------------
 
 ### Milvus config
 MY_CONFIG.DB_URI = './rag_1_dpk.db'  # For embedded instance
-MY_CONFIG.COLLECTION_NAME = 'docs'
 
 ## Embedding model
 MY_CONFIG.EMBEDDING_MODEL = 'sentence-transformers/all-MiniLM-L6-v2'
