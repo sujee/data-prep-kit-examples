@@ -12,16 +12,20 @@ Here are the [getting-ready](getting-ready.md) instructions.
 
 Please try to complete as much as the setup **before attending** the workshop.
 
+## Support and Community
+
+Discord is the preferred way to stay in touch and interact with other developers.
+
+Use this [invite](https://discord.gg/ZGCArnxu) to join **Granite Community**
+
+Use **#data-prep-kit** channel
+
 ## Using this Repo
 
-We will use `dev1` branch of this repo for this workshop.
+We will use `main` branch of this repo for this workshop.
 
 ```bash
 git  clone  https://github.com/sujee/data-prep-kit-examples
-
-cd   data-prep-kit-examples
-
-git checkout dev1
 ```
 
 ## Agenda
@@ -38,7 +42,7 @@ We will walk through this together
 
 - [DPK features: presentation](https://docs.google.com/presentation/d/1V3ODX4sCbXhci1EpU8aqC1sNJjMvHIn5DntWqWOQxh8/edit?usp=sharing)
 
-- [dpk-intro/dpk_intro_1_ray_dev1.ipynb](../dpk-intro/dpk_intro_1_ray_dev1.ipynb)
+- [dpk-intro/dpk_intro_1_python.ipynbb](../dpk-intro/dpk_intro_1_python.ipynbb)
 
 ### 4. Milvus Introduction
 

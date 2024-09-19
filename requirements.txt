@@ -35,14 +35,9 @@ llama-index
 
 ### llama-index embedding models
 llama-index-embeddings-huggingface
-## llama-index-embeddings-mistralai
-## llama-index-embeddings-openai== 0.1.7
 
 ### llama-index LLM interfaces
 llama-index-llms-replicate
-## llama-index-llms-mistralai
-## llama-index-llms-openai==0.1.12
-# llama-index-llms-llama-cpp
 
 ### llama-index Vector dbs
 llama-index-vector-stores-milvus
