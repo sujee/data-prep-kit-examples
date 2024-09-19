@@ -6,6 +6,8 @@ Whether you're performing RAG (Retrieval-Augmented Generation) or fine-tuning a 
 
 [Data Prep Kit](https://github.com/IBM/data-prep-kit) can help you with wrangling data.  
 
+<a href="media/data-prep-kit-3.png"><img src="media/data-prep-kit-3.png" style="float:right;" width="400px;"></a>
+
 Noteworthy  features:
 
 - de-duping documents (exact dedupe and [fuzzy dedupe](https://github.com/IBM/data-prep-kit/tree/dev/transforms/universal/fdedup/ray#readme))
@@ -23,7 +25,6 @@ Noteworthy  features:
 
 - [2024-08-08: Open Source AI Demo Nigh, San Francisco, CA](events/2024-08-08__open-source-ai-demo-night.md)
 
-**Now, on to the code**
 
 ## How to Run the Code
 
@@ -35,19 +36,19 @@ But it is recommended you setup local python dev environment.
 
 ## Data Prep Kit Examples
 
-[Data prep kit demos](./dpk-intro/README.md) - Get to know data prep kit features
+➡️ [Data prep kit demos](./dpk-intro/README.md) - Get to know data prep kit features
 
-[RAG examples](rag/README.md) 
 
 
 ## Milvus - Vector Database
 
 [Milvus](https://milvus.io/) is a popular vector database that is **open source**
 
-[A quick start of Milvus](milvus/milvus_1_quick_start.ipynb) - Run an embedded milvus 
+➡️ [A quick start of Milvus](milvus/milvus_1_quick_start.ipynb) - Run an embedded milvus 
 
-[Vector search of movie plots using Milvus](milvus/milvus_2_movie_search.ipynb) - load movie data, index it with embeddings, upload the data into milvus and run semantic queries
+➡️ [Vector search of movie plots using Milvus](milvus/milvus_2_movie_search.ipynb) - load movie data, index it with embeddings, upload the data into milvus and run semantic queries
 
+## RAG Pipeline
 
-
+➡️ [End to end RAG](rag/README.md) 
 
