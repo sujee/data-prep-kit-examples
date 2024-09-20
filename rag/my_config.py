@@ -14,14 +14,15 @@ MY_CONFIG = MyConfig ()
 # MY_CONFIG.COLLECTION_NAME = 'solar_system'
 
 
-MY_CONFIG.INPUT_DATA_DIR = "../data/fomc"
-MY_CONFIG.OUTPUT_FOLDER = "output-fomc"
-MY_CONFIG.COLLECTION_NAME = 'fomc'
+MY_CONFIG.INPUT_DATA_DIR = "../data/papers"
+MY_CONFIG.OUTPUT_FOLDER = "output-papers"
+MY_CONFIG.COLLECTION_NAME = 'papers'
+
+# MY_CONFIG.INPUT_DATA_DIR = "../data/fomc"
+# MY_CONFIG.OUTPUT_FOLDER = "output-fomc"
+# MY_CONFIG.COLLECTION_NAME = 'fomc'
 
 
-# MY_CONFIG.INPUT_DATA_DIR = "../data/papers"
-# MY_CONFIG.OUTPUT_FOLDER = "output-papers"
-# MY_CONFIG.COLLECTION_NAME = 'papers'
 
 
 # MY_CONFIG.INPUT_DATA_DIR = "../data/10k"
