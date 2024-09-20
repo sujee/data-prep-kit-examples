@@ -1,5 +1,7 @@
 # Notes for Hands-on RAG Workshop (Data Riders Meetup)
 
+![](./2024-09-21__qr.png)
+
 ## Event Details
 
 [Event information](https://www.meetup.com/datariders/events/303161605/?slug=datariders&eventId=303161605)  
@@ -14,11 +16,16 @@ Please try to complete as much as the setup **before attending** the workshop.
 
 ## Support and Community
 
-Discord is the preferred way to get support and interact with other DPK users.
+Discord is the preferred way to collaborate during and after the workshop
 
-Use this [invite](https://discord.gg/ZGCArnxu) to join **Granite Community**
+**Workshop Discord**
 
-Use **#data-prep-kit** channel
+For the workshop, use this channel [#2021-09-21-rag-workshop-hacker-dojo](https://discordapp.com/channels/1286815214670712863/1286817262505951233)   &nbsp; | &nbsp;  [Invite](https://discord.gg/MF4Waczr)  
+
+**Data Prep Kit Discord**
+
+For Data Prep Kit support,  discussions and feedback use [#data-prep-kit](https://discordapp.com/channels/1276554812359442504/1286046139921207476) channel on **Granite Community** server.  &nbsp;  |  &nbsp;  [invite](https://discord.gg/ZGCArnxu) 
+
 
 ## Using this Repo
 
