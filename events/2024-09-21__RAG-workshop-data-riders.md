@@ -14,7 +14,7 @@ Please try to complete as much as the setup **before attending** the workshop.
 
 ## Support and Community
 
-Discord is the preferred way to stay in touch and interact with other developers.
+Discord is the preferred way to get support and interact with other DPK users.
 
 Use this [invite](https://discord.gg/ZGCArnxu) to join **Granite Community**
 
@@ -40,13 +40,15 @@ git  clone  https://github.com/sujee/data-prep-kit-examples
 
 We will walk through this together
 
-- [DPK features: presentation](https://docs.google.com/presentation/d/1V3ODX4sCbXhci1EpU8aqC1sNJjMvHIn5DntWqWOQxh8/edit?usp=sharing)
+- [DPK feature walkthrough presentation](https://docs.google.com/presentation/d/1V3ODX4sCbXhci1EpU8aqC1sNJjMvHIn5DntWqWOQxh8/edit?usp=sharing)
 
-- [dpk-intro/dpk_intro_1_python.ipynbb](../dpk-intro/dpk_intro_1_python.ipynbb)
+- Code: [dpk-intro/dpk_intro_1_python.ipynb](../dpk-intro/dpk_intro_1_python.ipynb)
 
 ### 4. Milvus Introduction
 
 ### 5. Vector Search with Milvus
+
+We will search movie plots using vector search like "show me movies where humans fight aliens" 😀
 
 code: [milvus/milvus_2_movie_search.ipynb](../milvus/milvus_2_movie_search.ipynb)
 

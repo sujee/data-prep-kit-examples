@@ -1,10 +1,12 @@
 # Datasets for RAG
 
-Here are some sample questions you can try.  Feel free to ask your own questions 😀
+Here are some datasets that area included in this repository.  
+
+Try out your own data 😀
 
 ## Solar System
 
-Location : data/solar-system
+Location : [data/solar-system](../data/solar-system/)
 
 Very simple test data about Earth and Mars.
 
@@ -12,7 +14,7 @@ Questions:
 
 ## Papers
 
-location : data/papers
+location : [data/papers](../data/papers/)
 
 Some white papers about LLMs
 
@@ -23,7 +25,7 @@ Possible questions:
 
 ## FOMC (Federal Open Market Committee)
 
-location : data/fomc
+location : [data/fomc](../data/fomc/)
 
 Press releases announcing FOMC meeting decisions.
 
@@ -37,7 +39,7 @@ Possible questions:
 
 ## 10k
 
-Location: data/10k
+Location: [data/10k](../data/10k/)
 
 10k financial reports
 
@@ -48,7 +50,7 @@ Questions:
 
 ## Walmart Data
 
-location : data/walmart-reports-1
+location : [data/walmart-reports-1](../data/walmart-reports-1/)
 
 Walmart financial data
 
@@ -59,7 +61,7 @@ Possible questions:
 
 ## Resumes
 
-location : data/resumes
+location : [data/resumes](../data/resumes/)
 
 A few resumes
 
