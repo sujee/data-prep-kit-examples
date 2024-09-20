@@ -1,4 +1,4 @@
-# Notes for Hands-on RAG Workshop (Data Riders Meetup)
+# 2021-09-21: Hands-on RAG Workshop (Data Riders Meetup)
 
 ![](./2024-09-21__qr.png)
 
