@@ -63,7 +63,16 @@ code: [milvus/milvus_2_movie_search.ipynb](../milvus/milvus_2_movie_search.ipynb
 
 [RAG/README.md](../rag/README.md)
 
-## Resources
+## Links
+
+**Speaker: Sujee Maniyam**  
+AI Engineer / Developer Advocate (Consulting for [The AI Alliance](https://thealliance.ai/))  
+**sujee@node51.com** &nbsp; • &nbsp; [Linkedin](https://www.linkedin.com/in/sujeemaniyam/) &nbsp;  • &nbsp;  [github](https://github.com/sujee/) &nbsp;  •  &nbsp; [Portfolio](https://sujee.github.io/portfolio/)  &nbsp;  •  &nbsp; [blog](https://sujee.dev/)
+
+**Speaker: Jiang Chen**  
+Developer Relations @ Zilliz  
+[Linkedin](https://www.linkedin.com/in/jiangc1010/)
+
 
 ## Promo Brochure
 

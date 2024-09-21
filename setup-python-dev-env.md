@@ -12,10 +12,24 @@ We will create an environment for this workshop with all the required libraries 
 
 ```bash
 conda create -n data-prep-kit-1 -y python=3.11
+```
 
-# activate the new conda environment
+Activate the new conda environment
+
+```bash
 conda activate data-prep-kit-1
-# make sure env is swithced to data-prep-kit-1
+```
+
+Make sure env is swithced to data-prep-kit-1
+
+Be sure in the project directory
+
+```bash
+git   clone  https://github.com/sujee/data-prep-kit-examples
+```
+
+```bash
+cd  data-prep-kit-examples
 ```
 
 install all needed packages
@@ -24,15 +38,28 @@ install all needed packages
 pip install -r requirements.txt
 ```
 
-## Step-3: Setup a Jupyter / Ipython Kernel
+
+## Start-3: Start Jupyter
+
+```bash
+jupyter lab
+```
+
+## Troubleshooting
+
+## If libraries are not loading:  Setup a Jupyter / Ipython Kernel
 
 To use Jupyter notebooks, we will define a kernel specific to this environment
 
-```bash
-## create a new jupyter kernel (same name as the conda env name)
-ipython kernel install --user --name=data-prep-kit-1
+Create a new jupyter kernel (same name as the conda env name)
 
-# see installed kernels
+```bash
+ipython kernel install --user --name=data-prep-kit-1
+```
+
+SWee installed kernels
+
+```bash
 jupyter kernelspec list
 ```
 
