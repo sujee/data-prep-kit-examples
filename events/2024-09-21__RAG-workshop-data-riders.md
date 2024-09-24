@@ -39,11 +39,15 @@ git  clone  https://github.com/sujee/data-prep-kit-examples
 
 ### 1. Introduction and networking
 
-### 2. Data Prep Kit Intro
+### 2. Milvus Introduction
+
+[Milvus intro](./2024-09-21__Milvus-Introduction.pdf) presentation by Jiang Chen
+
+### 3. Data Prep Kit Intro
 
 - [Introduction to Data Prep Kit - Presentation](https://docs.google.com/presentation/d/1zqUD9cPJ72FtpG9nUsERJiZ1wNR2q3_j3QsoX74k4V8/edit?usp=sharing)
 
-### 3. Data Prep Kit Feature Exploration
+### 4. Data Prep Kit Feature Exploration
 
 We will walk through this together
 
@@ -51,7 +55,6 @@ We will walk through this together
 
 - Code: [dpk-intro/dpk_intro_1_python.ipynb](../dpk-intro/dpk_intro_1_python.ipynb)
 
-### 4. Milvus Introduction
 
 ### 5. Vector Search with Milvus
 
