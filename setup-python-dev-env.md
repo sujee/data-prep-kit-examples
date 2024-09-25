@@ -8,7 +8,6 @@ You can install Anaconda by following the [guide here](https://www.anaconda.com/
 
 We will create an environment for this workshop with all the required libraries installed.
 
-**Make sure python version is 3.11**
 
 ```bash
 conda create -n data-prep-kit-1 -y python=3.11
@@ -20,9 +19,23 @@ Activate the new conda environment
 conda activate data-prep-kit-1
 ```
 
-Make sure env is swithced to data-prep-kit-1
+Make sure env is swithced to data-prep-kit-1.
 
-Be sure in the project directory
+**Make sure python version is 3.11**
+
+```bash
+python --version
+```
+
+**Note**: If you are on a linux system install these too
+
+```bash
+conda install gcc_linux-64
+
+conda install gxx_linux-64
+```
+
+Get the repo
 
 ```bash
 git   clone  https://github.com/sujee/data-prep-kit-examples
@@ -38,6 +51,12 @@ install all needed packages
 pip install -r requirements.txt
 ```
 
+Install a custom kernel 
+
+```bash
+python -m ipykernel install --user --name=data-prep-kit --display-name "dataprepkit"
+```
+
 
 ## Start-3: Start Jupyter
 
@@ -47,20 +66,7 @@ jupyter lab
 
 ## Troubleshooting
 
-## If libraries are not loading:  Setup a Jupyter / Ipython Kernel
+### If libraries are not loading in Jupyter:  Select custom Kernel
 
-To use Jupyter notebooks, we will define a kernel specific to this environment
 
-Create a new jupyter kernel (same name as the conda env name)
-
-```bash
-ipython kernel install --user --name=data-prep-kit-1
-```
-
-SWee installed kernels
-
-```bash
-jupyter kernelspec list
-```
-
-When running Jupyter notebooks, be sure to select this kernel
+When running Jupyter notebooks, if data prep kit libraries are not found, try selecting the custom kernel you created (`dataprepkit`)
