@@ -10,7 +10,7 @@ Where: Hacker Dojo, 855 Maude Ave · Mountain View, CA
 
 ## Getting Ready for the Workshop
 
-Here are the [getting-ready](getting-ready.md) instructions.
+Here are the [getting-ready](../getting-ready.md) instructions.
 
 Please try to complete as much as the setup **before attending** the workshop.
 
