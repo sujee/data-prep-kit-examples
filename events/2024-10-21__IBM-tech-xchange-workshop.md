@@ -2,11 +2,11 @@
 
 ## Event Details
 
-[Event information](https://www.ibm.com/community/ibm-techxchange-conference/)<br>
+[Event information](https://reg.tools.ibm.com/flow/ibm/techxchange24/sessioncatalog/page/sessioncatalog?search=3707&tab.sessioncatalogtabs=option_1601178495160)<br>
 Date: Monday, October 21, 2024 <br>
 Where:  Las Vegas, NV<br>
 
-## bit.ly/3UirW42
+## 🔗  [bit.ly/3UirW42](https://bit.ly/3UirW42)
 
 ![](2024-10-21__IBM--tech-xchange-qr1.png)
 
@@ -19,12 +19,12 @@ Please try to complete as much as the setup **before attending** the workshop.
 
 ## Support and Community
 
-For Data Prep Kit support,  discussions and feedback use [#data-prep-kit](https://discordapp.com/channels/1276554812359442504/1286046139921207476) channel on **Granite Community** server.  &nbsp;  |  &nbsp;  [invite](https://discord.gg/ZGCArnxu) 
+For Data Prep Kit support,  discussions and feedback use [#data-prep-kit](https://discordapp.com/channels/1276554812359442504/1286046139921207476) channel on **Granite Community** server.  &nbsp;  |  &nbsp;  [invite](https://discord.gg/RjXrgDjA3b) 
 
 
 ## Code
 
-**This repo**
+**This repo (we will use it for the workshop)**
 
 https://github.com/sujee/data-prep-kit-examples
 
@@ -50,7 +50,7 @@ The examples are in `examples/notebooks` folder.
 
 ### 1. Data Prep Kit Feature Exploration
 
-We will walk through this together
+- [Workshop presentation slides](https://docs.google.com/presentation/d/1FyI7um71VcjYsFrcqyj5RHRgrrdsgGw30PPj6WptOQ4/edit?usp=sharing)
 
 - [DPK feature walkthrough presentation](https://docs.google.com/presentation/d/1V3ODX4sCbXhci1EpU8aqC1sNJjMvHIn5DntWqWOQxh8/edit?usp=sharing)
 
@@ -62,6 +62,8 @@ We will walk through this together
 [RAG/README.md](../rag/README.md)
 
 ## Links
+
+### Speakers
 
 **Speaker: Sujee Maniyam**  
 AI Engineer / Developer Advocate (Consulting for [The AI Alliance](https://thealliance.ai/))  
