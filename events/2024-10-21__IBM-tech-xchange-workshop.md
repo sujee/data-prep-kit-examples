@@ -4,7 +4,12 @@
 
 [Event information](https://www.ibm.com/community/ibm-techxchange-conference/)<br>
 Date: Monday, October 21, 2024 <br>
-Where: Mandalay Bay, Las Vegas, NV<br>
+Where:  Las Vegas, NV<br>
+
+## bit.ly/3UirW42
+
+![](2024-10-21__IBM--tech-xchange-qr1.png)
+
 
 ## Getting Ready for the Workshop
 
@@ -19,6 +24,15 @@ For Data Prep Kit support,  discussions and feedback use [#data-prep-kit](https:
 
 ## Code
 
+**This repo**
+
+https://github.com/sujee/data-prep-kit-examples
+
+
+```bash
+git  clone  https://github.com/sujee/data-prep-kit-examples
+```
+
 **Data Prep Kit Repo**
 
 https://github.com/IBM/data-prep-kit
@@ -29,14 +43,7 @@ git   clone   https://github.com/IBM/data-prep-kit
 
 The examples are in `examples/notebooks` folder.
 
-**More Examples**
 
-https://github.com/sujee/data-prep-kit-examples
-
-
-```bash
-git  clone  https://github.com/sujee/data-prep-kit-examples
-```
 
 ## Agenda
 
