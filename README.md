@@ -35,6 +35,8 @@ Noteworthy  features:
 
 ## Events
 
+- [Data Prep Kit + RAG workshop](events/data-prep-kit-rag-workshop.md)
+
 - [2024-10-21: Workshop @ IBM Tech XChange](events/2024-10-21__IBM-tech-xchange-workshop.md) , Las Vegas, NV
 
 - [2024-09-21: Hands on RAG workshop @ Data Riders meetup](events/2024-09-21__RAG-workshop-data-riders.md) - Hacker Dojo, Mountain View, CA
