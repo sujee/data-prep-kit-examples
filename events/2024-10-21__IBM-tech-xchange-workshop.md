@@ -8,7 +8,8 @@ Where:  Las Vegas, NV<br>
 
 ## 🔗  [bit.ly/3UirW42](https://bit.ly/3UirW42)
 
-![](2024-10-21__IBM--tech-xchange-qr1.png)
+<img src="2024-10-21__IBM--tech-xchange-qr1.png" width="400px">
+
 
 
 ## Getting Ready for the Workshop
