@@ -35,7 +35,7 @@ Noteworthy  features:
 
 ## Events
 
-- [Data Prep Kit + RAG workshop](events/data-prep-kit-rag-workshop.md)
+- [Data Prep Kit workshop](events/data-prep-kit-workshop.md)
 
 - [2024-10-21: Workshop @ IBM Tech XChange](events/2024-10-21__IBM-tech-xchange-workshop.md) , Las Vegas, NV
 

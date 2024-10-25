@@ -1,8 +1,8 @@
 # Data Prep Kit Workshop
 
-## 🔗  [bit.ly/dpk-workshop1](https://bit.ly/dpk-workshop1)
+## 🔗  [bit.ly/dpk-workshop2](https://bit.ly/dpk-workshop2)
 
-<img src="qrcode-data-prep-kit-rag-workshop.png" width="400px">
+<img src="qrcode-data-prep-kit-workshop.png" width="400px">
 
 ## About Data Prep Kit
 
