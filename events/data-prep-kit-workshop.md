@@ -48,9 +48,11 @@ git  clone  https://github.com/sujee/data-prep-kit-examples
 ### 1. Data Prep Kit Feature Exploration
 
 
-- 📺 Presentation: [DPK feature walkthrough slides](https://docs.google.com/presentation/d/1V3ODX4sCbXhci1EpU8aqC1sNJjMvHIn5DntWqWOQxh8/edit?usp=sharing)
+- 📺 Presentation: [DPK intro](https://docs.google.com/presentation/d/1zqUD9cPJ72FtpG9nUsERJiZ1wNR2q3_j3QsoX74k4V8/edit?usp=sharing)
 
-- 📺 Presentation: [DPK + RAG workshop  slides](https://docs.google.com/presentation/d/1z2jplzVPAFPceXEitlLUbFcj-QZuqhmVbReFcNIRuJU/edit?usp=sharing)
+- 📺 Presentation: [DPK feature walkthrough](https://docs.google.com/presentation/d/1V3ODX4sCbXhci1EpU8aqC1sNJjMvHIn5DntWqWOQxh8/edit?usp=sharing)
+
+- 📺 Presentation: [DPK + RAG workshop](https://docs.google.com/presentation/d/1z2jplzVPAFPceXEitlLUbFcj-QZuqhmVbReFcNIRuJU/edit?usp=sharing)
 
 - 💻 Code: 
     - Option 1 : [View in github @ main repo](https://github.com/IBM/data-prep-kit/blob/dev/examples/notebooks/intro/dpk_intro_1_python.ipynb) &nbsp; | &nbsp;  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/IBM/data-prep-kit/blob/dev/examples/notebooks/intro/dpk_intro_1_python.ipynb)
