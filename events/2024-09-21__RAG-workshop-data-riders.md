@@ -53,7 +53,7 @@ We will walk through this together
 
 - [DPK feature walkthrough presentation](https://docs.google.com/presentation/d/1V3ODX4sCbXhci1EpU8aqC1sNJjMvHIn5DntWqWOQxh8/edit?usp=sharing)
 
-- Code: [dpk-intro/dpk_intro_1_python.ipynb](../dpk-intro/dpk_intro_1_python.ipynb)
+- Code: [dpk-intro/process_pdfs_1_python.ipynb](../dpk-intro/process_pdfs_1_python.ipynb)
 
 
 ### 5. Vector Search with Milvus
@@ -70,7 +70,7 @@ code: [milvus/milvus_2_movie_search.ipynb](../milvus/milvus_2_movie_search.ipynb
 
 **Speaker: Sujee Maniyam**  
 AI Engineer / Developer Advocate (Consulting for [The AI Alliance](https://thealliance.ai/))  
-**sujee@node51.com** &nbsp; • &nbsp; [Linkedin](https://www.linkedin.com/in/sujeemaniyam/) &nbsp;  • &nbsp;  [github](https://github.com/sujee/) &nbsp;  •  &nbsp; [Portfolio](https://sujee.github.io/portfolio/)  &nbsp;  •  &nbsp; [blog](https://sujee.dev/)
+**sujee@node51.com** &nbsp; • &nbsp; [Linkedin](https://www.linkedin.com/in/sujeemaniyam/) &nbsp;  • &nbsp;  [github](https://github.com/sujee/) &nbsp;  •  &nbsp; [Portfolio](https://portfolio.sujee.dev/)  &nbsp;  •  &nbsp; [blog](https://sujee.dev/)
 
 **Speaker: Jiang Chen**  
 Developer Relations @ Zilliz  

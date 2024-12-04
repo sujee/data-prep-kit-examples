@@ -30,9 +30,9 @@ python --version
 **Note**: If you are on a linux system install these too
 
 ```bash
-conda install gcc_linux-64
+conda install -y gcc_linux-64
 
-conda install gxx_linux-64
+conda install -y gxx_linux-64
 ```
 
 Get the repo

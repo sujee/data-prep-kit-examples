@@ -55,7 +55,7 @@ The examples are in `examples/notebooks` folder.
 
 - [DPK feature walkthrough presentation](https://docs.google.com/presentation/d/1V3ODX4sCbXhci1EpU8aqC1sNJjMvHIn5DntWqWOQxh8/edit?usp=sharing)
 
-- Code: [dpk-intro/dpk_intro_1_python.ipynb](../dpk-intro/dpk_intro_1_python.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sujee/data-prep-kit-examples/blob/main/dpk-intro/dpk_intro_1_python.ipynb)
+- Code: [dpk-intro/process_pdfs_1_python.ipynb](../dpk-intro/process_pdfs_1_python.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sujee/data-prep-kit-examples/blob/main/dpk-intro/process_pdfs_1_python.ipynb)
 
 
 ### 2. RAG Pipeline with Data Prep Kit
@@ -68,7 +68,7 @@ The examples are in `examples/notebooks` folder.
 
 **Speaker: Sujee Maniyam**  
 AI Engineer / Developer Advocate (Consulting for [The AI Alliance](https://thealliance.ai/))  
-**sujee@node51.com** &nbsp; • &nbsp; [Linkedin](https://www.linkedin.com/in/sujeemaniyam/) &nbsp;  • &nbsp;  [github](https://github.com/sujee/) &nbsp;  •  &nbsp; [Portfolio](https://sujee.github.io/portfolio/)  &nbsp;  •  &nbsp; [blog](https://sujee.dev/)
+**sujee@node51.com** &nbsp; • &nbsp; [Linkedin](https://www.linkedin.com/in/sujeemaniyam/) &nbsp;  • &nbsp;  [github](https://github.com/sujee/) &nbsp;  •  &nbsp; [Portfolio](https://portfolio.sujee.dev/)  &nbsp;  •  &nbsp; [blog](https://sujee.dev/)
 
 **Speaker: Dave Nielsen**<br>
 Head of AI Alliance Commnuity, IBM<br>
