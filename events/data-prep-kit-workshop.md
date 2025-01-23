@@ -45,18 +45,16 @@ git  clone  https://github.com/sujee/data-prep-kit-examples
 ## Workshop Agenda
 
 
-### 1. Data Prep Kit Feature Exploration
+### 1. Data Prep Kit Introduction and Feature Exploration
 
-- 📺 Presentation: [DPK workshop](https://docs.google.com/presentation/d/1z2jplzVPAFPceXEitlLUbFcj-QZuqhmVbReFcNIRuJU/edit?usp=sharing)
-
-- 📺 Presentation: [DPK intro](https://docs.google.com/presentation/d/1zqUD9cPJ72FtpG9nUsERJiZ1wNR2q3_j3QsoX74k4V8/edit?usp=sharing)
-
-- 📺 Presentation: [DPK feature walkthrough](https://docs.google.com/presentation/d/1V3ODX4sCbXhci1EpU8aqC1sNJjMvHIn5DntWqWOQxh8/edit?usp=sharing)
+- 📺 Presentation: [DPK intro and feature walkthrough](https://docs.google.com/presentation/d/1u90TTW3GnvPnYX0BFrbdK_SG91jGaaDhCki3S6cLL94/edit?usp=sharing)
 
 
-- 💻 Code: 
-    - Option 1 (latest): [view in github @ this repo](../dpk-intro/process_pdfs_1_python.ipynb)  &nbsp; | &nbsp; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sujee/data-prep-kit-examples/blob/main/dpk-intro/process_pdfs_1_python.ipynb)
-    - Option 2 (official): [View in github @ main repo](https://github.com/IBM/data-prep-kit/blob/dev/examples/notebooks/intro/process_pdfs_1_python.ipynb) &nbsp; | &nbsp;  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/IBM/data-prep-kit/blob/dev/examples/notebooks/intro/process_pdfs_1_python.ipynb)
+- 💻 Code: **Preparing PDF documents for LLM applications**
+
+    - Option 1 (latest / my-fork): [view in github](https://github.com/sujee/data-prep-kit/blob/process-pdf-1/examples/notebooks/pdf-processing-1/pdf_processing_1_python.ipynb)  &nbsp; | &nbsp; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sujee/data-prep-kit/blob/process-pdf-1/examples/notebooks/pdf-processing-1/pdf_processing_1_python.ipynb)
+
+    <!-- - Option 2 (official): [View in github @ main repo](https://github.com/IBM/data-prep-kit/blob/dev/examples/notebooks/intro/process_pdfs_1_python.ipynb) &nbsp; | &nbsp;  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/IBM/data-prep-kit/blob/dev/examples/notebooks/intro/process_pdfs_1_python.ipynb) -->
 
 
 ### 2. RAG Pipeline with Data Prep Kit
@@ -69,5 +67,5 @@ git  clone  https://github.com/sujee/data-prep-kit-examples
 
 **Sujee Maniyam**  
 AI Developer Relations Engineer @ Node51 (Consulting for [The AI Alliance](https://thealliance.ai/))  
-**sujee@node51.com** &nbsp; • &nbsp; [Linkedin](https://www.linkedin.com/in/sujeemaniyam/) &nbsp;  • &nbsp;  [github](https://github.com/sujee/) &nbsp;  •  &nbsp; [portfolio](https://portfolio.sujee.dev/)  &nbsp;  •  &nbsp; [blog](https://sujee.dev/)
+**sujee@node51.com** &nbsp; • &nbsp; [Linkedin](https://www.linkedin.com/in/sujeemaniyam/) &nbsp;  • &nbsp;  [github](https://github.com/sujee/) &nbsp;  •  &nbsp; [portfolio](https://sujee.dev/)  &nbsp;  •  &nbsp; [blog](https://sujee.dev/)
 

@@ -7,7 +7,7 @@
 <img src="media/qr1-bit.ly-dpk-examples.png" width="400px">
 
 **Sujee Maniyam** (AI Engineer and Developer Advocate)<br>
-sujee@node51.com  &nbsp; •  &nbsp; [Portfolio](https://portfolio.sujee.dev/)
+sujee@node51.com  &nbsp; •  &nbsp; [Portfolio](https://sujee.dev/)
 
 
 ## Introducing Data Prep Kit (DPK)
@@ -35,7 +35,7 @@ Noteworthy  features:
 
 ## Events
 
-- [Data Prep Kit workshop](events/data-prep-kit-workshop.md)
+- **[Data Prep Kit workshop - Latest](events/data-prep-kit-workshop.md)**
 
 - [2024-10-21: Workshop @ IBM Tech XChange](events/2024-10-21__IBM-tech-xchange-workshop.md) , Las Vegas, NV
 
