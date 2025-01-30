@@ -1,0 +1,6 @@
+docling
+
+# jupyter
+jupyterlab
+ipykernel
+ipywidgets

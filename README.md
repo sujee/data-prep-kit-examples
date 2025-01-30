@@ -35,6 +35,8 @@ Noteworthy  features:
 
 ## Events
 
+- [2025-01-30: AI Alliance Office hour](events/2025-01__AI-alliance-office-hour.md)
+
 - **[Data Prep Kit workshop - Latest](events/data-prep-kit-workshop.md)**
 
 - [2024-10-21: Workshop @ IBM Tech XChange](events/2024-10-21__IBM-tech-xchange-workshop.md) , Las Vegas, NV

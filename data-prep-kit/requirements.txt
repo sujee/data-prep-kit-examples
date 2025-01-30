@@ -1,0 +1,7 @@
+data-prep-toolkit-transforms[all]==1.0.0
+
+
+# jupyter
+jupyterlab
+ipykernel
+ipywidgets
