@@ -28,4 +28,4 @@ jupyter lab
 
 Process PDFs using DPK / Docling
 
-[docling_1_intro.ipynb](dpk_1_intro.ipynb) |  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sujee/data-prep-kit-examples/blob/main/data-prep-kit/dpk_1_introipynb)
+[docling_1_intro.ipynb](dpk_1_intro.ipynb) |  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sujee/data-prep-kit-examples/blob/main/data-prep-kit/dpk_1_intro.ipynb)
