@@ -22,9 +22,28 @@ pip install  -r requirements.txt
 jupyter lab
 ```
 
-## Docling
+## Docling Quick Start
 
-**Intro**  -  walks through docling's parsing features
+Use CLI
+
+```bash
+
+## PDF --> markdown
+!docling   --output output --to md  input.pdf
+
+## PDF --> text
+# !docling   --output output --to text  input.pdf
+
+## PDF --> json
+!docling   --output output --to json  input.pdf
+
+## PDF --> html
+!docling   --output output --to html  input.pdf
+```
+
+## Intro 
+
+Walks through docling's parsing features
 
 [docling_1_intro.ipynb](docling_1_intro.ipynb) |  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sujee/data-prep-kit-examples/blob/main/docling/docling_1_intro.ipynb)
 
