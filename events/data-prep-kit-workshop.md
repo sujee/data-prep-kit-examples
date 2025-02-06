@@ -17,7 +17,9 @@ Please try to complete as much as the setup **before attending** the workshop.
 
 ## Support and Community
 
-For Data Prep Kit support,  discussions and feedback use [#data-prep-kit](https://discord.com/channels/1276554812359442504/1303454647427661866) channel on **Granite Community** server.  &nbsp;  |  &nbsp;  [invite](https://discord.gg/SzdUvJbtav) 
+🙋 Ask questions, get help, give us feedback at [Data Prep Kit discussion forum](https://github.com/IBM/data-prep-kit/discussions)
+
+<!-- For Data Prep Kit support,  discussions and feedback use [#data-prep-kit](https://discord.com/channels/1276554812359442504/1303454647427661866) channel on **Granite Community** server.  &nbsp;  |  &nbsp;  [invite](https://discord.gg/SzdUvJbtav)  -->
 
 
 ## Code
