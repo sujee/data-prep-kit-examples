@@ -1,6 +1,6 @@
-# AI Alliance Office Hour (2025-01-30)
+# AI Alliance Office Hour: Docling (2025-01-30)
 
-## 🔗 [bit.ly/4hfckIe](https://bit.ly/4hfckIe)
+## 🔗 [bit.ly/41dDZDF](https://bit.ly/41dDZDF)
 
 <img src="2025-01__AI-alliance-office-hour-qr1.png" width="400px">
 

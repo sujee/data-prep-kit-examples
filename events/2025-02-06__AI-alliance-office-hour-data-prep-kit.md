@@ -1,4 +1,4 @@
-# AI Alliance Office Hour (2025-01-30)
+# AI Alliance Office Hour: In depth look at Data Prep Kit (2025-02-06)
 
 ## 🔗 [bit.ly/4hfckIe](https://bit.ly/4hfckIe)
 

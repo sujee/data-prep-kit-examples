@@ -10,6 +10,25 @@
 sujee@node51.com  &nbsp; •  &nbsp; [Portfolio](https://sujee.dev/)
 
 
+
+## Events
+
+- [2025-02-13: AI Alliance Office hour - Workshop : RAG with Data Prep Kit + Milvus + Granite](events/2025-02-13__AI-alliance-office-hour-RAG-workshop.md)
+
+- [2025-02-06: AI Alliance Office hour - Data Preparation with Data Prep Kit](events/2025-02-06__AI-alliance-office-hour-data-prep-kit.md)
+
+- [2025-01-30: AI Alliance Office hour - Data Preparation with Docling](events/2025-01-30__AI-alliance-office-hour-docling.md)
+
+- **[Data Prep Kit workshop - Latest](events/data-prep-kit-workshop.md)**
+
+- [2024-10-21: Workshop @ IBM Tech XChange](events/2024-10-21__IBM-tech-xchange-workshop.md) , Las Vegas, NV
+
+- [2024-09-21: Hands on RAG workshop @ Data Riders meetup](events/2024-09-21__RAG-workshop-data-riders.md) - Hacker Dojo, Mountain View, CA
+
+- [2024-08-08: Open Source AI Demo Nigh, San Francisco, CA](events/2024-08-08__open-source-ai-demo-night.md)
+
+
+
 ## Introducing Data Prep Kit (DPK)
 
 Whether you're performing RAG (Retrieval-Augmented Generation) or fine-tuning a model, a significant portion of your time will be dedicated to cleaning (de-duping, removing markups, etc.) and shaping the data.
@@ -29,26 +48,11 @@ Noteworthy  features:
 - tokenizing and chunking
 - generating embeddings
 
+
+
 ## Getting Ready
 
 [Getting Ready](getting-ready.md) guide
-
-## Events
-
-- [2025-02-13: AI Alliance Office hour - Workshop : RAG with Data Prep Kit + Milvus + Granite](events/2025-02-13__AI-alliance-office-hour-RAG-workshop.md)
-
-- [2025-02-06: AI Alliance Office hour - Data Preparation with Data Prep Kit](events/2025-02-06__AI-alliance-office-hour-data-prep-kit.md)
-
-- [2025-01-30: AI Alliance Office hour - Data Preparation with Docling](events/2025-01-30__AI-alliance-office-hour-docling.md)
-
-- **[Data Prep Kit workshop - Latest](events/data-prep-kit-workshop.md)**
-
-- [2024-10-21: Workshop @ IBM Tech XChange](events/2024-10-21__IBM-tech-xchange-workshop.md) , Las Vegas, NV
-
-- [2024-09-21: Hands on RAG workshop @ Data Riders meetup](events/2024-09-21__RAG-workshop-data-riders.md) - Hacker Dojo, Mountain View, CA
-
-- [2024-08-08: Open Source AI Demo Nigh, San Francisco, CA](events/2024-08-08__open-source-ai-demo-night.md)
-
 
 ## How to Run the Code
 

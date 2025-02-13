@@ -1,8 +1,8 @@
-# Workshop: RAG with Data Prep Kit + Milvus + Granite (2025-02-13)
+# AI Alliance Office Hour: Workshop - RAG with Data Prep Kit + Milvus + Granite (2025-02-13)
 
-## 🔗 [bit.ly/4hfckIe](https://bit.ly/4hfckIe)
+## 🔗 [bit.ly/3CE8Z6x](https://bit.ly/3CE8Z6x)
 
-<img src="2025-01__AI-alliance-office-hour-qr1.png" width="400px">
+<img src="2025-02-13__AI-alliance-office-hour-qr1.png" width="400px">
 
 
 ## Event Details
