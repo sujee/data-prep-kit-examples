@@ -35,7 +35,11 @@ Noteworthy  features:
 
 ## Events
 
-- [2025-01-30: AI Alliance Office hour](events/2025-01__AI-alliance-office-hour.md)
+- [2025-02-13: AI Alliance Office hour - Workshop : RAG with Data Prep Kit + Milvus + Granite](events/2025-02-13__AI-alliance-office-hour-RAG-workshop.md)
+
+- [2025-02-06: AI Alliance Office hour - Data Preparation with Data Prep Kit](events/2025-02-06__AI-alliance-office-hour-data-prep-kit.md)
+
+- [2025-01-30: AI Alliance Office hour - Data Preparation with Docling](events/2025-01-30__AI-alliance-office-hour-docling.md)
 
 - **[Data Prep Kit workshop - Latest](events/data-prep-kit-workshop.md)**
 

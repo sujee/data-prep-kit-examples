@@ -8,11 +8,12 @@
 
 [Event information](https://www.meetup.com/ibm-developer-sf-bay-area-meetup/events/305798918/)<br>
 🗓️: Thursday Jan 30, 2025 <br>
+⏰ : 9 am PST  / 11 am CST / 12 pm EST / 5pm GMT
 
 
 ## Support and Community
 
-For Data Prep Kit support,  discussions and feedback use [#data-prep-kit](https://discordapp.com/channels/1276554812359442504/1286046139921207476) channel on **Granite Community** server.  &nbsp;  |  &nbsp;  [invite](https://discord.gg/RjXrgDjA3b) 
+🙋 Ask questions, get help, give us feedback at [Data Prep Kit discussion forum](https://github.com/IBM/data-prep-kit/discussions)
 
 ## Code
 
@@ -34,17 +35,13 @@ git  clone  https://github.com/sujee/data-prep-kit-examples
 
 Docling examples are here: [../docling/](../docling/)
 
-### 2 - Data Prep Kit
-
-💻 **Getting started with Data Prep Kit**
-
-DPK examples: [../data-prep-kit/](../data-prep-kit/)
 
 
-## Speakers
 
-**Sujee Maniyam** 
+## Speaker
 
-AI Developer Relations Engineer  
-@ Node51 (Consulting for [The AI Alliance](https://thealliance.ai/))  
+### Sujee Maniyam
+
+AI Developer Relations Engineer<br>
+@ Node51 (Consulting for [The AI Alliance](https://thealliance.ai/))<br>
 **sujee@node51.com** &nbsp; • &nbsp; [Linkedin](https://www.linkedin.com/in/sujeemaniyam/) &nbsp;  • &nbsp;  [github](https://github.com/sujee/) &nbsp;  •  &nbsp; [portfolio](https://sujee.dev/)  &nbsp;  •  &nbsp; [blog](https://sujee.dev/)
