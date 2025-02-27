@@ -64,6 +64,10 @@ But it is recommended you setup local python dev environment.
 
 ## Labs
 
+### Docling examples
+
+[docling examples](docling/)
+
 ### Data Prep Kit Examples
 
 ➡️ [Data prep kit demos](./dpk-intro/README.md) - Get to know data prep kit features
