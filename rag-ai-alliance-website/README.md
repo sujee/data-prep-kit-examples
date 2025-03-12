@@ -79,3 +79,31 @@ Once you have an API token, add it to the project like this:
 Query documents using LLM
 
 [4_query.ipynb](4_query.ipynb)
+
+## 7 - Building Docker
+
+```bash
+docker  build   -t sujee/rag-aialliance  .
+```
+
+Publishing the docker image to the dockerhub
+
+```bash
+docker  login 
+
+# tag the image to match dockerhub account
+# docker image tag  rag-aialliance    sujee/rag-aialliance
+
+# push it
+docker  push   sujee/rag-aialliance
+```
+
+## 8 - Running the Docker image
+
+```bash
+docker pull   sujee/rag-aialliance
+
+docker run -p 8501:8501 sujee/rag-aialliance
+```
+
+Go to URL:  http://localhost:8501

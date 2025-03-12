@@ -11,6 +11,11 @@ trafilatura
 # Milvus
 pymilvus
 
+## pytorch - cpu version (much lighter than GPU version)
+# PyTorch CPU packages
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==2.3.1+cpu
+
 ## --- Replicate
 replicate
 
