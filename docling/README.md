@@ -54,6 +54,7 @@ You can find some sample scanned PDFs in [data/scanned-pdfs](../data/scanned-pdf
 
 And also inspect the generated output in [data/scanned-pdfs/processed-md](../data/scanned-pdfs/processed-md)
 
+
 ```bash
 # to process one file
 docling --to md   --output output  data/scanned-pdfs/scanned-1.pdf
@@ -62,7 +63,10 @@ docling --to md   --output output  data/scanned-pdfs/scanned-1.pdf
 docling --to md   --output output  data/scanned-pdfs/
 ```
 
-Some examples
+[docling_2_ocr.ipynb](docling_2_ocr.ipynb) |  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sujee/data-prep-kit-examples/blob/main/docling/docling_2_ocr.ipynb)
+
+
+Some examples of input PDFs and procesed output:
 
 - [simple scanned pdf](../data/scanned-pdfs/scanned-1.pdf)  and [processed markdown](../data/scanned-pdfs/processed-md/scanned-1.md)
 - [a typed letter pdf](../data/scanned-pdfs/letter-1.pdf) and [processed markdodwn](../data/scanned-pdfs/processed-md/letter-1.md)
