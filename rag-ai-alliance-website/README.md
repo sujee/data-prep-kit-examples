@@ -2,6 +2,8 @@
 
 This example will show how to crawl a website, process HTML files and query them using RAG.
 
+We will utilize Data Prep Kit for this.
+
 Here is the process:
 
 `website ---(crawler) --> HTML files --- (html2pq)--> markdown content ---(llama-index)--> save to vector db (Milvus) ---(query)---> LLM`
@@ -80,10 +82,24 @@ Query documents using LLM
 
 [4_query.ipynb](4_query.ipynb)
 
-## 7 - Building Docker
+## 7 - Streamlit UI
+
+Launch the app as
 
 ```bash
-docker  build   -t sujee/rag-aialliance  .
+streamlit run app1.py
+```
+
+Go to URL : http://localhost:8501/
+
+## 8 - Building Docker
+
+Replace "USER" with your dockerhub username (e.g. 'sujee')
+
+```bash
+docker  build   -t USER/rag-aialliance-dpk  .
+# for example
+docker  build   -t sujee/rag-aialliance-dpk  .
 ```
 
 Publishing the docker image to the dockerhub
@@ -92,18 +108,18 @@ Publishing the docker image to the dockerhub
 docker  login 
 
 # tag the image to match dockerhub account
-# docker image tag  rag-aialliance    sujee/rag-aialliance
+# docker image tag  rag-aialliance    USER/rag-aialliance
 
 # push it
-docker  push   sujee/rag-aialliance
+docker  push   USER/rag-aialliance-dpk
+# e.g.
+docker  push   sujee/rag-aialliance-dpk
 ```
 
-## 8 - Running the Docker image
+## 9 - Running the Docker image
 
 ```bash
-docker pull   sujee/rag-aialliance
-
-docker run -p 8501:8501 sujee/rag-aialliance
+docker run -p 8501:8501 sujee/rag-aialliance-dpk
 ```
 
 Go to URL:  http://localhost:8501

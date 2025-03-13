@@ -12,9 +12,8 @@ trafilatura
 pymilvus
 
 ## pytorch - cpu version (much lighter than GPU version)
-# PyTorch CPU packages
---find-links https://download.pytorch.org/whl/torch_stable.html
-torch==2.3.1+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.6.0+cpu
 
 ## --- Replicate
 replicate
@@ -29,5 +28,3 @@ llama-index-vector-stores-milvus
 humanfriendly
 pandas
 mimetypes-magic
-
-ipykernel

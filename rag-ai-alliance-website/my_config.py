@@ -29,6 +29,9 @@ MY_CONFIG.OUTPUT_DIR_MARKDOWN = os.path.join(MY_CONFIG.OUTPUT_DIR , "2-markdown"
 MY_CONFIG.EMBEDDING_MODEL = 'ibm-granite/granite-embedding-30m-english'
 MY_CONFIG.EMBEDDING_LENGTH = 384
 
+## Chunking
+MY_CONFIG.CHUNK_SIZE = 512
+MY_CONFIG.CHUNK_OVERLAP = 20
 
 ### Milvus config
 MY_CONFIG.DB_URI = './rag_website.db'  # For embedded instance
