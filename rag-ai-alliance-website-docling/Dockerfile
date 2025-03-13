@@ -1,0 +1,24 @@
+FROM python:3.11-slim
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    git \
+    wget \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+# # Install PyTorch CPU version
+# RUN pip install --no-cache-dir \
+#     torch==2.6.0+cpu \
+#     --index-url https://download.pytorch.org/whl/cpu
+
+# copy our files into WORKDIR
+COPY . ./
+
+# Install all required libraries
+RUN  pip install -r requirements-docker.txt
+
+EXPOSE 8501
+ENTRYPOINT ["streamlit", "run", "app1.py", "--server.port=8501", "--server.address=0.0.0.0"]

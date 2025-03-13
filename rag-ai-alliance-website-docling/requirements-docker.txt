@@ -1,0 +1,27 @@
+data-prep-connector
+docling
+
+streamlit
+nest_asyncio
+
+## pytorch - cpu version (much lighter than GPU version)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.6.0+cpu
+
+# Milvus
+pymilvus
+
+## --- Replicate
+replicate
+
+## --- llama-index
+llama-index
+llama-index-embeddings-huggingface
+llama-index-llms-replicate
+llama-index-vector-stores-milvus
+
+## utils
+humanfriendly
+pandas
+mimetypes-magic
+ipykernel

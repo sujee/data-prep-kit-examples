@@ -1,0 +1,10 @@
+input*/
+output*/
+*.out*
+
+*.db
+*.db.lock
+
+## profiling outputs
+*.svg
+*.speed

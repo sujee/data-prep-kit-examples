@@ -1,0 +1,25 @@
+data-prep-connector
+docling
+
+streamlit
+nest_asyncio
+
+
+# Milvus
+pymilvus
+
+## --- Replicate
+replicate
+
+## --- llama-index
+llama-index
+llama-index-embeddings-huggingface
+llama-index-llms-replicate
+llama-index-vector-stores-milvus
+
+## utils
+humanfriendly
+pandas
+mimetypes-magic
+tqdm
+ipykernel
