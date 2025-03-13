@@ -2,7 +2,7 @@
 
 ## 🔗 [bit.ly/41dDZDF](https://bit.ly/41dDZDF)
 
-<img src="2025-01__AI-alliance-office-hour-qr1.png" width="400px">
+<img src="2025-01-30__AI-alliance-office-hour-qr1.png" width="400px">
 
 ## Event Details
 
@@ -44,4 +44,4 @@ Docling examples are here: [../docling/](../docling/)
 
 AI Developer Relations Engineer<br>
 @ Node51 (Consulting for [The AI Alliance](https://thealliance.ai/))<br>
-**sujee@node51.com** &nbsp; • &nbsp; [Linkedin](https://www.linkedin.com/in/sujeemaniyam/) &nbsp;  • &nbsp;  [github](https://github.com/sujee/) &nbsp;  •  &nbsp; [portfolio](https://sujee.dev/)  &nbsp;  •  &nbsp; [blog](https://sujee.dev/)
+sujee@node51.com &nbsp; • &nbsp; [Linkedin](https://www.linkedin.com/in/sujeemaniyam/) &nbsp;  • &nbsp;  [github](https://github.com/sujee/) &nbsp;  •  &nbsp; [portfolio](https://sujee.dev/portfolio?utm_medium=speaker_bio&utm_source=github__data_prep_kit_examples&utm_campaign=speaking_general) 

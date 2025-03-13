@@ -69,5 +69,5 @@ git  clone  https://github.com/sujee/data-prep-kit-examples
 
 **Sujee Maniyam**  
 AI Developer Relations Engineer @ Node51 (Consulting for [The AI Alliance](https://thealliance.ai/))  
-**sujee@node51.com** &nbsp; • &nbsp; [Linkedin](https://www.linkedin.com/in/sujeemaniyam/) &nbsp;  • &nbsp;  [github](https://github.com/sujee/) &nbsp;  •  &nbsp; [portfolio](https://sujee.dev/)  &nbsp;  •  &nbsp; [blog](https://sujee.dev/)
+**sujee@node51.com** &nbsp; • &nbsp; [Linkedin](https://www.linkedin.com/in/sujeemaniyam/) &nbsp;  • &nbsp;  [github](https://github.com/sujee/) &nbsp;  •  &nbsp; [portfolio](https://sujee.dev/portfolio?utm_medium=speaker_bio&utm_source=github__data_prep_kit_examples&utm_campaign=speaking_general)  &nbsp;  •  &nbsp; [blog](https://sujee.dev/)
 

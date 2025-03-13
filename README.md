@@ -7,7 +7,7 @@
 <img src="media/qr1-bit.ly-dpk-examples.png" width="400px">
 
 **Sujee Maniyam** (AI Engineer and Developer Advocate)<br>
-sujee@node51.com  &nbsp; •  &nbsp; [Portfolio](https://sujee.dev/)
+sujee@node51.com  &nbsp; •  &nbsp; [portfolio](https://sujee.dev/portfolio?utm_medium=speaker_bio&utm_source=github__data_prep_kit_examples&utm_campaign=speaking_general)
 
 
 
