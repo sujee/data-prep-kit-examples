@@ -1,11 +1,20 @@
 # Chat With AI Alliance Website
 
-This example will show how to crawl a website, process HTML files and query them using RAG.
+Open source RAG stack for querying/chatting with your website.
 
-## 🔗  [bit.ly/4hlaeFZ](https://bit.ly/4hlaeFZ)
+## 🔗  [bit.ly/4l0eltW](https://bit.ly/4l0eltW)
 
-<img src="qrcode_rag-docling-weaviate.png" width="400px">
+<img src="qrcode-data-prep-kit-examples-rag-website-1.png" width="400px">
 
+
+## Open Source Stack
+
+1. Crawling the website: [Data Prep Kit Connector](https://github.com/data-prep-kit/data-prep-kit/blob/dev/data-connector-lib/doc/overview.md)
+2. Processing HTML --> MD:  [Docling](https://github.com/docling-project/docling)
+3. Processing MD (chunking, saving to vector db): [llama-index](https://docs.llamaindex.ai/en/stable/)
+4. Embedding model: [ibm-granite/granite-embedding-30m-english](https://huggingface.co/ibm-granite/granite-embedding-30m-english)
+5. Vector DB: [weaviate](https://weaviate.io/)
+6. LLM:  [IBM Granite](https://huggingface.co/ibm-granite)
 
 ## Workflow
 

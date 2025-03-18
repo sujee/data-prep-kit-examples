@@ -21,7 +21,7 @@ sujee@node51.com  &nbsp; •  &nbsp; [portfolio](https://sujee.dev/portfolio?utm
 
 <a href="media/data-prep-kit-3.png"><img src="media/data-prep-kit-3.png" style="float:right;" width="400px;"></a>
 
-This repo has example code for preparing data using [Data Prep Kit](https://github.com/data-prep-kit/data-prep-kit/){:target="_blank" rel="noopener"},  [Docling](https://github.com/docling-project/docling){:target="_blank" rel="noopener"} and other tools.
+This repo has example code for preparing data using [Data Prep Kit](https://github.com/data-prep-kit/data-prep-kit/),  [Docling](https://github.com/docling-project/docling) and other tools.
 
 **Data Prep Kit** can help you with preparing data for machine learing applications.
 
@@ -56,7 +56,7 @@ This repo has example code for preparing data using [Data Prep Kit](https://gith
     - [Vector search of movie plots using Milvus](milvus/milvus_2_movie_search.ipynb) - load movie data, index it with embeddings, upload the data into milvus and run semantic queries
 - RAG - open source RAG pipeline/stacks
     - [RAG for PDF documents](rag-pdf-1/)
-    - [RAG for website 1](rag-ai-alliance-website/) - data prep kit + Milvus + Granite LLM
-    - [RAG for website 2](rag-ai-alliance-website-docling-milvus/) - Docling + Milvus + Granite LLM
-    - [RAG for website 3](rag-ai-alliance-website-docling-weaviate/) - Docling + Weaviate + Granite LLM
+    - [RAG for website 1](rag-ai-alliance-website-docling-weaviate/) - Docling + Weaviate + Granite LLM
+    - [RAG for website 2](rag-ai-alliance-website/) - data prep kit + Milvus + Granite LLM
+    - [RAG for website 3](rag-ai-alliance-website-docling-milvus/) - Docling + Milvus + Granite LLM
 
