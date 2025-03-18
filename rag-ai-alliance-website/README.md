@@ -2,11 +2,9 @@
 
 This example will show how to crawl a website, process HTML files and query them using RAG.
 
-We will utilize Data Prep Kit for this.
+## Workflow
 
-Here is the process:
-
-`website ---(crawler) --> HTML files --- (html2pq)--> markdown content ---(llama-index)--> save to vector db (Milvus) ---(query)---> LLM`
+![](../media/rag-website-1.png)
 
 ## Step-1: Setup Python Env
 

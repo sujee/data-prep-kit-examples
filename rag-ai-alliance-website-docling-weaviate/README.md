@@ -1,17 +1,15 @@
 # Chat With AI Alliance Website
 
+This example will show how to crawl a website, process HTML files and query them using RAG.
 
 ## 🔗  [bit.ly/4hlaeFZ](https://bit.ly/4hlaeFZ)
 
 <img src="qrcode_rag-docling-weaviate.png" width="400px">
 
-This example will show how to crawl a website, process HTML files and query them using RAG.
 
-We will utilize Docling for this.
+## Workflow
 
-Here is the process:
-
-`website ---(crawler) --> HTML files --- (html2pq)--> markdown content ---(llama-index)--> save to vector db (weaviate) ---(query)---> LLM`
+![](../media/rag-website-1.png)
 
 ## Step-1: Setup Python Env
 
