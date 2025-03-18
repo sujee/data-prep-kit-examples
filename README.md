@@ -56,7 +56,7 @@ This repo has example code for preparing data using [Data Prep Kit](https://gith
     - [Vector search of movie plots using Milvus](milvus/milvus_2_movie_search.ipynb) - load movie data, index it with embeddings, upload the data into milvus and run semantic queries
 - RAG - open source RAG pipeline/stacks
     - [RAG for PDF documents](rag-pdf-1/)
-    - [RAG for website 1](rag-ai-alliance-website-docling-weaviate/) - Docling + Weaviate + Granite LLM
+    - [RAG for website 1](rag-website-1/) - Docling + Weaviate + Granite LLM
     - [RAG for website 2](rag-ai-alliance-website/) - data prep kit + Milvus + Granite LLM
     - [RAG for website 3](rag-ai-alliance-website-docling-milvus/) - Docling + Milvus + Granite LLM
 
