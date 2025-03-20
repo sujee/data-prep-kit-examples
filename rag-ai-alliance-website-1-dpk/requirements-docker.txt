@@ -1,0 +1,36 @@
+data-prep-toolkit==0.2.3
+data-prep-toolkit-transforms[html2parquet]==1.0.0
+data-prep-toolkit-transforms[web2parquet]==1.0.0
+
+nest_asyncio
+
+## HTML processing
+trafilatura
+
+# Milvus
+pymilvus
+
+## pytorch - cpu version (much lighter than GPU version)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.6.0+cpu
+
+## --- Replicate
+replicate
+
+## --- llama-index
+llama-index
+llama-index-embeddings-huggingface
+llama-index-llms-replicate
+llama-index-vector-stores-milvus
+
+## --- streamlit
+streamlit
+
+## --- flask
+flask==2.3.3
+
+
+## utils
+humanfriendly
+pandas
+mimetypes-magic

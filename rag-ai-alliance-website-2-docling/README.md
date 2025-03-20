@@ -2,6 +2,15 @@
 
 This example will show how to crawl a website, process HTML files and query them using RAG.
 
+## Open Source Stack
+
+1. Crawling the website: [Data Prep Kit Connector](https://github.com/data-prep-kit/data-prep-kit/blob/dev/data-connector-lib/doc/overview.md)
+2. Processing HTML --> MD:  [Docling](https://github.com/docling-project/docling)
+3. Processing MD (chunking, saving to vector db): [llama-index](https://docs.llamaindex.ai/en/stable/)
+4. Embedding model: [ibm-granite/granite-embedding-30m-english](https://huggingface.co/ibm-granite/granite-embedding-30m-english)
+5. Vector DB: [Milvus](https://milvus.io/)
+6. LLM:  [IBM Granite](https://huggingface.co/ibm-granite)
+
 ## Workflow
 
 ![](../media/rag-website-1.png)
@@ -80,25 +89,30 @@ Query documents using LLM
 
 [4_query.ipynb](4_query.ipynb)
 
-## 7 - Streamlit UI
-
-Launch the app as
+## 7 - Flask UI
 
 ```bash
-streamlit run app1.py
+python app.py
 ```
 
-Go to URL : http://localhost:8501/
+Go to url : http://localhost:5000
 
 ## 8 - Building Docker
 
-Replace "USER" with your dockerhub username (e.g. 'sujee')
+To build docker
 
 ```bash
-docker  build   -t USER/rag-aialliance-docling  .
+# Replace "USER" with your dockerhub username (e.g. 'sujee')
+docker  build  -t USER/rag-aialliance-2-docling  .
 # for example
-docker  build   -t sujee/rag-aialliance-docling  .
+docker  build  -t sujee/rag-aialliance-2-docling  .
 ```
+
+Other docker options:
+
+- ` --progress=plain`
+- `--no-cache`
+
 
 Publishing the docker image to the dockerhub
 
@@ -109,15 +123,19 @@ docker  login
 # docker image tag  rag-aialliance    USER/rag-aialliance
 
 # push it
-docker  push   USER/rag-aialliance-docling
+docker  push   USER/rag-aialliance-2-docling
 # e.g.
-docker  push   sujee/rag-aialliance-docling
+docker  push   sujee/rag-aialliance-2-docling
 ```
 
 ## 9 - Running the Docker image
 
+
+**Flask**
+
 ```bash
-docker run -p 8501:8501 sujee/rag-aialliance-docling
+docker run -p 5000:5000 sujee/rag-aialliance-2-docling
 ```
 
-Go to URL:  http://localhost:8501
+Go to URL:  http://localhost:5000
+

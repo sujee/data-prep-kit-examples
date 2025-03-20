@@ -2,6 +2,15 @@
 
 This example will show how to crawl a website, process HTML files and query them using RAG.
 
+## Open Source Stack
+
+1. Crawling the website: [Data Prep Kit Connector](https://github.com/data-prep-kit/data-prep-kit/blob/dev/data-connector-lib/doc/overview.md)
+2. Processing HTML --> MD:  [Data Prep Kit](https://github.com/data-prep-kit/data-prep-kit)
+3. Processing MD (chunking, saving to vector db): [llama-index](https://docs.llamaindex.ai/en/stable/)
+4. Embedding model: [ibm-granite/granite-embedding-30m-english](https://huggingface.co/ibm-granite/granite-embedding-30m-english)
+5. Vector DB: [Milvus](https://milvus.io/)
+6. LLM:  [IBM Granite](https://huggingface.co/ibm-granite)
+
 ## Workflow
 
 ![](../media/rag-website-1.png)
@@ -80,25 +89,48 @@ Query documents using LLM
 
 [4_query.ipynb](4_query.ipynb)
 
-## 7 - Streamlit UI
+## 7 - UIs
 
-Launch the app as
+### 7.1 - Streamlit
 
 ```bash
-streamlit run app1.py
+streamlit run app-streamlit.py
+```
+Go to URL : http://localhost:8501
+
+### 7.2 - Flask App
+
+```bash
+python app-flask.py
 ```
 
-Go to URL : http://localhost:8501/
+Go to url : http://localhost:5000
 
 ## 8 - Building Docker
 
-Replace "USER" with your dockerhub username (e.g. 'sujee')
+To build flask docker
 
 ```bash
-docker  build   -t USER/rag-aialliance-dpk  .
+# Replace "USER" with your dockerhub username (e.g. 'sujee')
+docker  build -f Dockerfile-flask  -t USER/rag-aialliance-1-dpk-flask  .
 # for example
-docker  build   -t sujee/rag-aialliance-dpk  .
+docker  build  -f Dockerfile-flask  -t sujee/rag-aialliance-1-dpk-flask  .
 ```
+
+To build streamlit docker
+
+```bash
+# Replace "USER" with your dockerhub username (e.g. 'sujee')
+docker  build -f Dockerfile-streamlit  -t USER/rag-aialliance-1-dpk-st  .
+# for example
+docker  build  -f Dockerfile-streamlit  -t sujee/rag-aialliance-1-dpk-st  .
+```
+
+Other docker options:
+
+- ` --progress=plain`
+- `--no-cache`
+
 
 Publishing the docker image to the dockerhub
 
@@ -109,15 +141,26 @@ docker  login
 # docker image tag  rag-aialliance    USER/rag-aialliance
 
 # push it
-docker  push   USER/rag-aialliance-dpk
+docker  push   USER/rag-aialliance-1-dpk-flask
 # e.g.
-docker  push   sujee/rag-aialliance-dpk
+docker  push   sujee/rag-aialliance-1-dpk-flask
 ```
 
 ## 9 - Running the Docker image
 
+
+**Flask**
+
 ```bash
-docker run -p 8501:8501 sujee/rag-aialliance-dpk
+docker run -p 5000:5000 sujee/rag-aialliance-1-dpk-flask
+```
+
+Go to URL:  http://localhost:5000
+
+**Streamlit**
+
+```bash
+docker run -p 8501:8501 sujee/rag-aialliance-1-dpk-st
 ```
 
 Go to URL:  http://localhost:8501
