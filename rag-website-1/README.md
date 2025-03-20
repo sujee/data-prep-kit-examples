@@ -67,7 +67,7 @@ We will process downloaded HTML files and extract the text as markdown.  The out
 
 ## Step-5: Save data into DB
 
-We will save the extracted text (markdown) into a vector database (Milvus)
+We will save the extracted text (markdown) into a vector database.
 
 [3_save_to_vector_db.ipynb](3_save_to_vector_db.ipynb)
 

@@ -32,7 +32,6 @@ MY_CONFIG.CHUNK_SIZE = 512
 MY_CONFIG.CHUNK_OVERLAP = 20
 
 
-### Milvus config
 MY_CONFIG.DB_URI = './rag_website.db'  # For embedded instance
 
 
