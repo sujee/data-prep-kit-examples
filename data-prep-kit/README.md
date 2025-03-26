@@ -22,10 +22,36 @@ pip install  -r requirements.txt
 jupyter lab
 ```
 
-## Data Prep Kit (DPK)
+## Examples
 
-### DPK quick start
+### 1 - Processing PDF files
 
 Process PDFs using DPK / Docling
 
-[docling_1_intro.ipynb](dpk_1_intro.ipynb) |  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sujee/data-prep-kit-examples/blob/main/data-prep-kit/dpk_1_intro.ipynb)
+**This example has now been officially integrated into the Data Prep Kit repository. [here](https://github.com/data-prep-kit/data-prep-kit/tree/dev/examples/notebooks/pdf-processing-1)**
+
+[dpk_1_intro.ipynb](dpk_1_intro.ipynb) |  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sujee/data-prep-kit-examples/blob/main/data-prep-kit/dpk_1_intro.ipynb)
+
+### 2 - Document Quality
+
+Detect and filter out SPAM  and low quality content
+
+[doc_quality_1.ipynb](doc_quality_1.ipynb) |  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sujee/data-prep-kit-examples/blob/main/data-prep-kit/doc_quality_1.ipynb)
+
+### 3 - PII (Personally Identifiable Information) Redactor
+
+Detect and redact sensitive information like 
+
+- Credit card numbers
+- emails
+- address
+- social security numbers
+
+[pii_1.ipynb](pii_1.ipynb) |  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sujee/data-prep-kit-examples/blob/main/data-prep-kit/pii_1.ipynb)
+
+
+### 4 - HAP (Hate Abuse Profanity) Detector
+
+Detect HAP speech in documents
+
+[hap_1.ipynb](hap_1.ipynb) |  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sujee/data-prep-kit-examples/blob/main/data-prep-kit/hap_1.ipynb)
