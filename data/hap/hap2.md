@@ -1,3 +1,3 @@
 # HAP Example - Hate
 
-I absolutely hate tall people!
+I hate all immigrants!
