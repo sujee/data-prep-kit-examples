@@ -54,9 +54,9 @@ git  clone  https://github.com/sujee/data-prep-kit-examples
 
 - 💻 Code: **Preparing PDF documents for LLM applications**
 
-    - Option 1 (latest / my-fork): [view in github](https://github.com/sujee/data-prep-kit/blob/process-pdf-1/examples/notebooks/pdf-processing-1/pdf_processing_1_python.ipynb)  &nbsp; | &nbsp; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sujee/data-prep-kit/blob/process-pdf-1/examples/notebooks/pdf-processing-1/pdf_processing_1_python.ipynb)
+    <!-- - Option 1 (latest / my-fork): [view in github](https://github.com/sujee/data-prep-kit/blob/process-pdf-1/examples/notebooks/pdf-processing-1/pdf_processing_1_python.ipynb)  &nbsp; | &nbsp; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sujee/data-prep-kit/blob/process-pdf-1/examples/notebooks/pdf-processing-1/pdf_processing_1_python.ipynb) -->
 
-    <!-- - Option 2 (official): [View in github @ main repo](https://github.com/IBM/data-prep-kit/blob/dev/examples/notebooks/intro/process_pdfs_1_python.ipynb) &nbsp; | &nbsp;  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/IBM/data-prep-kit/blob/dev/examples/notebooks/intro/process_pdfs_1_python.ipynb) -->
+    - Option 2 (official): [View in github @ main repo](https://github.com/IBM/data-prep-kit/blob/dev/examples/notebooks/intro/process_pdfs_1_python.ipynb) &nbsp; | &nbsp;  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/IBM/data-prep-kit/blob/dev/examples/notebooks/intro/process_pdfs_1_python.ipynb)
 
 
 ### 2. RAG Pipeline with Data Prep Kit
