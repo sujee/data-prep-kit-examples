@@ -5,7 +5,8 @@ nest_asyncio
 
 
 # Milvus
-pymilvus
+pymilvus==2.5.5
+milvus-lite==2.4.11
 
 ## --- Replicate
 replicate
@@ -14,7 +15,7 @@ replicate
 llama-index
 llama-index-embeddings-huggingface
 llama-index-llms-replicate
-llama-index-vector-stores-milvus
+llama-index-vector-stores-milvus==0.5.0
 
 ## --- flask
 flask==2.3.3
