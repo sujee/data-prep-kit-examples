@@ -1,26 +1,81 @@
 # Getting Ready for the Workshop
 
-## Step-1: Basic dev tools
+Please complete these steps ==**BEFORE ATTENDING**== the workshop  
 
-Please have the following tools
-- git
-- a good editor (VSCode ..etc)
+⚠️ Downloading and installing packages and libraries using a shared workshop/conference wifi connection will be unreliable and slow.  So its highly recommended you complete this setup before the workshop.
 
-## Step-2: Install Anaconda Python or Equivalent
+## Prerequisites
+
+1. **Laptop** with modern operating system (macOS, Linux, or Windows)
+2. **Installed software**:
+    - Git
+    - Python 3.11+
+    - [uv](https://docs.astral.sh/uv/getting-started/installation/)  - Fast Python package installer and resolver
+3. **API Keys** for any services needed.
+
+## Step-1: Get the code
+
+```bash
+git  clone    https://github.com/sujee/data-prep-kit-examples/
+cd   data-prep-kit-examples
+```
+
+## Step-2: Install Python
+
+**Python**
 
 Either install [Anaconda](https://www.anaconda.com/download/)   or [mini forge](https://github.com/conda-forge/miniforge)
 
-## Step-3:  Setup a Local Python Development Env
+**Setup UV (highly recommended)**
 
-Follow [setup-python-dev-env.md](setup-python-dev-env.md) to setup your local python dev environment.
+We use [uv](https://docs.astral.sh/uv/getting-started/installation/) package manager. Follow the setup instructions to install for your laptop.
 
-## Step-4: Sign up for Replicate
+## Step-3:  Setup Python Development Env
+
+We are going to setup a python env for the workshop.
+
+**Option 1: using `uv` - highly recommended**
+
+```bash
+uv sync
+```
+
+**Option 2: Using conda**
+
+```bash
+conda create -n dpk-workshop -y python=3.12
+conda activate dpk-workshop
+pip  install -r   requirements.txt
+```
+
+**Option 3: using python**
+
+```bash
+python  -m venv   venv
+source   venv/bin/activate
+pip   install -r   requirements.txt
+```
+
+
+## Step-4: Sign up for API Services
+
+
+### Option 1: Nebius - Recommended
+
+1. Sign up for free at [tokenfactory.nebius.com](https://tokenfactory.nebius.com/)
+2. Create an API key  (copy it and save it locally)
+
+The free account will give you a few API calls for free.  That is enough for this workshop.  
+
+**Additional API credits will be distributed in the workshop.**
+
+
+
+### Option 2: Replicate
 
 Get a **free** account at [replicate](https://replicate.com/home)
 
-💰 Use this [invite](https://replicate.com/invites/a8717bfe-2f3d-4a52-88ed-1356231cdf03) to add some credit to your Replicate account!
-
-(Just to give you an idea of pricing, Replicate charges 5c / 1M input tokens, 25c / 1M output token for model meta/meta-llama-3-8b-instruct)
+Use this [invite](https://replicate.com/invites/a8717bfe-2f3d-4a52-88ed-1356231cdf03) to add some credit to your Replicate account!
 
 The free account will give you a few API calls for free.  That is enough for this workshop.
 
@@ -31,8 +86,16 @@ Once you sign up, **create a token**
 
 Create an  `.env` file (note the dot in the front of the filename) in project root directory
 
-Populate your API keys in `.env` file.  Here is an example.
+Populate your API keys in `.env` file.  
 
+**Option 1: If using Nebius**
+
+```ini
+NEBIUS_API_KEY="your api key goes here"
 ```
-REPLICATE_API_TOKEN=your_replicate_token_goes_here
+
+**Option 2: if using Replicate**
+
+```ini
+REPLICATE_API_TOKEN="your_replicate_token_goes_here"
 ```

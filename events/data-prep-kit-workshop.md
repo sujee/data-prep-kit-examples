@@ -4,44 +4,31 @@
 
 <img src="qrcode-data-prep-kit-workshop.png" width="400px">
 
+By **Sujee Maniyam**  
+AI Developer Advocate @ [Nebius](https://nebius.com/)  
+[Linkedin](https://www.linkedin.com/in/sujeemaniyam/) &nbsp;  • &nbsp;
+[github](https://github.com/sujee/)   &nbsp;  •  &nbsp; 
+sujee@sujee.dev &nbsp;  •  &nbsp; 
+W:[sujee.dev](https://sujee.dev/) &nbsp;  •  &nbsp;
+X:[@sujee_dev](https://x.com/sujee_dev/) &nbsp;  •  &nbsp;
+B:[@sujee.dev](https://bsky.app/profile/sujee.dev)
+
+---
+
 ## About Data Prep Kit
 
-[About Data Prep Kit](../README.md#introducing-data-prep-kit-dpk)
+[Data Prep Kit official repo](https://github.com/data-prep-kit/data-prep-kit)
+
+🙋 Support and discuss :  [Data Prep Kit discussion forum](https://github.com/IBM/data-prep-kit/discussions)
 
 
 ## Getting Ready for the Workshop
 
 Here are the [getting-ready](../getting-ready.md) instructions.
 
-Please try to complete as much as the setup **before attending** the workshop.
-
-## Support and Community
-
-🙋 Ask questions, get help, give us feedback at [Data Prep Kit discussion forum](https://github.com/IBM/data-prep-kit/discussions)
-
-<!-- For Data Prep Kit support,  discussions and feedback use [#data-prep-kit](https://discord.com/channels/1276554812359442504/1303454647427661866) channel on **Granite Community** server.  &nbsp;  |  &nbsp;  [invite](https://discord.gg/SzdUvJbtav)  -->
+Please try to complete as much as the setup ==**before attending**== the workshop.
 
 
-## Code
-
-**Data Prep Kit Main Repo**
-
-https://github.com/IBM/data-prep-kit
-
-```bash
-git   clone   https://github.com/IBM/data-prep-kit
-```
-
-The examples are in `examples/notebooks` folder.
-
-**More examples**
-
-https://github.com/sujee/data-prep-kit-examples
-
-
-```bash
-git  clone  https://github.com/sujee/data-prep-kit-examples
-```
 
 
 ## Workshop Agenda
@@ -56,18 +43,14 @@ git  clone  https://github.com/sujee/data-prep-kit-examples
 
     <!-- - Option 1 (latest / my-fork): [view in github](https://github.com/sujee/data-prep-kit/blob/process-pdf-1/examples/notebooks/pdf-processing-1/pdf_processing_1_python.ipynb)  &nbsp; | &nbsp; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sujee/data-prep-kit/blob/process-pdf-1/examples/notebooks/pdf-processing-1/pdf_processing_1_python.ipynb) -->
 
-    - Option 2 (official): [View in github @ main repo](https://github.com/IBM/data-prep-kit/blob/dev/examples/notebooks/intro/process_pdfs_1_python.ipynb) &nbsp; | &nbsp;  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/IBM/data-prep-kit/blob/dev/examples/notebooks/intro/process_pdfs_1_python.ipynb)
+    - Option 2 (official): [View in github @ main repo](https://github.com/data-prep-kit/data-prep-kit/tree/dev/examples/pdf-processing-1) 
 
 
 ### 2. RAG Pipeline with Data Prep Kit
 
-- Option 1 : [Main repo ](https://github.com/IBM/data-prep-kit/tree/dev/examples/notebooks/rag)
+- Option 1: [My version](../rag-pdf-1/README.md)
+- Option 2 : [Main repo ](https://github.com/data-prep-kit/data-prep-kit/tree/dev/examples/rag-pdf-1)
 
-- Option 2: [This repo](../rag/README.md)
 
-## Speakers
 
-**Sujee Maniyam**  
-AI Developer Relations Engineer @ Node51 (Consulting for [The AI Alliance](https://thealliance.ai/))  
-**sujee@node51.com** &nbsp; • &nbsp; [Linkedin](https://www.linkedin.com/in/sujeemaniyam/) &nbsp;  • &nbsp;  [github](https://github.com/sujee/) &nbsp;  •  &nbsp; [portfolio](https://sujee.dev/portfolio?utm_medium=speaker_bio&utm_source=github__data_prep_kit_examples&utm_campaign=speaking_general)  &nbsp;  •  &nbsp; [blog](https://sujee.dev/)
 
