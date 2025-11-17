@@ -32,12 +32,13 @@ We use [uv](https://docs.astral.sh/uv/getting-started/installation/) package man
 
 ## Step-3:  Setup Python Development Env
 
-We are going to setup a python env for the workshop.
+### 3.1 - Setup a python env for the workshop.
 
 **Option 1: using `uv` - highly recommended**
 
 ```bash
 uv sync
+source   .venv/bin/activate
 ```
 
 **Option 2: Using conda**
@@ -51,11 +52,24 @@ pip  install -r   requirements.txt
 **Option 3: using python**
 
 ```bash
-python  -m venv   venv
-source   venv/bin/activate
+python  -m venv   .venv
+source   .venv/bin/activate
 pip   install -r   requirements.txt
 ```
 
+### 3.2 - Setup Jupyter Kernel
+
+This is handy to run the code within vscode
+
+```bash
+# create a ipykernel to run notebooks with vscode / jupyter / etc
+source  .venv/bin/activate
+python -m ipykernel install --user --name=dpk-example-1 --display-name "dpk-example-1"
+
+jupyter kernelspec list
+```
+
+Choose this kernel 'dpk-example-1' within jupyter / vscode
 
 ## Step-4: Sign up for API Services
 

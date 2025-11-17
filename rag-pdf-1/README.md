@@ -21,7 +21,6 @@ Inspect common configuration in [my_config.py](my_config.py)
 Here you can set 
 
 - input data
-- runtime configurations 
 - embedding models 
 - ..etc
 
@@ -32,71 +31,74 @@ Also here is an overview of [datasets](datasets.md) we have.
 This code uses DPK to 
 
 - Extract text from PDFs (RAG stage-1)
-- Performs de-dupes (RAG stage-1)
-- split the documents into chunks (RAG stage-2)
-- vectorize the chunks (RAG stage-3)
+- Performs cleanups (de-dupes & other cleanups) (RAG stage-1)
 
 Here is the code: 
 
-- Python version: [rag/rag_1A_dpk_process_python.ipynb](rag_1A_dpk_process_python.ipynb)
-- Ray version: [rag/rag_1A_dpk_process_ray.ipynb](rag_1A_dpk_process_ray.ipynb)
+- Python version: [1_dpk_process_python.ipynb](1_dpk_process_python.ipynb)
+- Ray version: [1_dpk_process_ray.ipynb](1_dpk_process_ray.ipynb)
 
 
 ## Step-4: Load data into vector database  (RAG stage 4)
 
 Our vector database is [Milvus](https://milvus.io/)
 
-Run the code: [rag_1B_load_data_into_milvus.ipynb](rag_1B_load_data_into_milvus.ipynb)
+Run the code: [2_save_to_vector_db.ipynb](2_save_to_vector_db.ipynb)
 
 Be sure to [shutdown the notebook](#tips-close-the-notebook-kernels-to-release-the-dblock) before proceeding to the next step
 
 
-## Step-5: Perform vector search (RAG stage 5 & 6)
 
-Let's do a few searches on our data.
+## Step-5: Query the documents using LLM (RAG steps 5, 6, 7, 8 & 9)
 
-Code: [rag_1C_vector_search.ipynb](rag_1C_vector_search.ipynb)
-
-Be sure to [shutdown the notebook](#tips-close-the-notebook-kernels-to-release-the-dblock) before proceeding to the next step
+We will use **Llama** as our LLM running on services like [Nebius Token Factory](https://tokenfactory.nebius.com/)  or   [Replicate](https://replicate.com/).
 
 
-## Step-6: Query the documents using LLM (RAG steps 5, 6, 7, 8 & 9)
-
-We will use **Llama** as our LLM running on [Replicate](https://replicate.com/) service.
-
-
-### 6.1 - Create an `.env` file
-
-To use replicate service, we will need a replicate API token.
-
-You can get one from [Replicate](https://replicate.com/)
+### 5.1 - Create an `.env` file
 
 Create an `.env` file (notice the dot in the file name in this directory with content like this
 
-```text
-REPLICATE_API_TOKEN=your REPLICATE token goes here
+**If using Nebius**
+
+Get an API key from [Nebius Token Factory](https://tokenfactory.nebius.com/)
+
+```ini
+LLM_MODEL = 'nebius/openai/gpt-oss-120b'
+NEBIUS_API_KEY = 'your api key'
 ```
 
-### 6.2 - Run the query code
 
-Code: [rag_1D_query_replicate.ipynb](rag_1D_query_replicate.ipynb)
+**If using replicate**
+
+You can get API key from [Replicate](https://replicate.com/)
 
 
 
-## Step 7: Illama Index
+```ini
+LLM_MODEL = 'ibm-granite/granite-3.3-8b-instruct'
+REPLICATE_API_TOKEN=xyz
+```
+
+### 5.2 - Run the query code
+
+Code: [3_query_LLM.ipynb](3_query_LLM.ipynb)
+
+
+
+## Step 6: Illama Index
 
 For comparision, we can use [Llama-index](https://docs.llamaindex.ai/) framework to process PDFs and query
 
-### Step 7.1 - Process documents and save the index into vector DB
+### Step 6.1 - Process documents and save the index into vector DB
 
-Code: [rag_2A_llamaindex_process.ipynb](rag_2A_llamaindex_process.ipynb)
+Code: [llamaindex_1_process.ipynb](llamaindex_1_process.ipynb)
 
 Be sure to [shutdown the notebook](#tips-close-the-notebook-kernels-to-release-the-dblock) before proceeding to the next step
 
 
-### Step 7.2 - Query documents with LLM
+### Step 6.2 - Query documents with LLM
 
-code: [rag_2B_llamaindex_query.ipynb](rag_2B_llamaindex_query.ipynb)
+code: [llamaindex_2_query.ipynb](llamaindex_2_query.ipynb)
 
 
 ## Tips: Close the notebook kernels, to release the db.lock

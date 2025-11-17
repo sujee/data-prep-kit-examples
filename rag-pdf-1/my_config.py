@@ -1,4 +1,8 @@
 import os 
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 
 ## Configuration
@@ -22,18 +26,13 @@ MY_CONFIG.COLLECTION_NAME = 'papers'
 # MY_CONFIG.OUTPUT_FOLDER = "output-fomc"
 # MY_CONFIG.COLLECTION_NAME = 'fomc'
 
-
-
-
 # MY_CONFIG.INPUT_DATA_DIR = "../data/10k"
 # MY_CONFIG.OUTPUT_FOLDER = "output-10k"
 # MY_CONFIG.COLLECTION_NAME = '10k'
 
-
 # MY_CONFIG.INPUT_DATA_DIR = "../data/walmart-reports-1"
 # MY_CONFIG.OUTPUT_FOLDER = "output-walmart-reports-1"
 # MY_CONFIG.COLLECTION_NAME = 'walmart'
-
 
 # MY_CONFIG.INPUT_DATA_DIR = "../data/resumes"
 # MY_CONFIG.OUTPUT_FOLDER = "output-resumes"
@@ -41,20 +40,24 @@ MY_CONFIG.COLLECTION_NAME = 'papers'
 
 
 MY_CONFIG.OUTPUT_FOLDER_FINAL = os.path.join(MY_CONFIG.OUTPUT_FOLDER , "output_final")
+MY_CONFIG.OUTPUT_FOLDER_FINAL_MD = os.path.join(MY_CONFIG.OUTPUT_FOLDER_FINAL , "markdown")
+
 ### -------------------------------
 
 ### Milvus config
 MY_CONFIG.DB_URI = './rag_1_dpk.db'  # For embedded instance
 
-## Embedding model
-MY_CONFIG.EMBEDDING_MODEL = 'sentence-transformers/all-MiniLM-L6-v2'
-MY_CONFIG.EMBEDDING_LENGTH = 384
+# Embedding model
+MY_CONFIG.EMBEDDING_MODEL =  os.getenv("EMBEDDING_MODEL", 'sentence-transformers/all-MiniLM-L6-v2')
+MY_CONFIG.EMBEDDING_LENGTH = int(os.getenv("EMBEDDING_LENGTH", 384))
+
+
+## Chunking
+MY_CONFIG.CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", 1024))
+MY_CONFIG.CHUNK_OVERLAP = int(os.getenv("CHUNK_OVERLAP", 100))
 
 ## LLM Model
-# MY_CONFIG.LLM_MODEL = "meta/meta-llama-3-8b-instruct"
-# MY_CONFIG.LLM_MODEL = "meta/meta-llama-3-70b-instruct"
-# MY_CONFIG.LLM_MODEL = "ibm-granite/granite-3.0-2b-instruct"
-MY_CONFIG.LLM_MODEL = "ibm-granite/granite-3.0-8b-instruct"
+MY_CONFIG.LLM_MODEL = os.getenv("LLM_MODEL")
 
 
 

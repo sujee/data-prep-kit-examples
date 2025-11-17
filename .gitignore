@@ -1,6 +1,6 @@
 ## embedded database files
 *.db
-*.lock
+*db.lock
 
 ## Output created by processors
 output*/

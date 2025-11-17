@@ -57,3 +57,13 @@ This repo has example code for preparing data using [Data Prep Kit](https://gith
 - Chat (RAG) with website is now a new project [allycat](https://github.com/The-AI-Alliance/allycat)
   - [older example here](rag-website-1/)
 
+---
+
+## Dev Notes
+
+### Creating `requirements.txt` using uv
+
+When we update uv deps, run this command to update requirements.txt
+
+```bash
+uv export --frozen --no-hashes --no-emit-project --no-default-groups --output-file=requirements.txt
