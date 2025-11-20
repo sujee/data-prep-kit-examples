@@ -15,7 +15,6 @@ aiohttp==3.13.2
     # via
     #   aiohttp-cors
     #   fsspec
-    #   huggingface-hub
     #   litellm
     #   llama-index-core
     #   llama-index-legacy
@@ -325,7 +324,7 @@ filetype==1.2.0
     #   llama-index-core
 flair==0.15.1
     # via data-prep-toolkit-transforms
-flatbuffers==25.9.23
+flatbuffers==25.9.23 ; sys_platform == 'darwin'
     # via onnxruntime
 fonttools==4.60.1
     # via matplotlib
@@ -423,7 +422,6 @@ huggingface-hub==0.36.0
     #   flair
     #   gradio
     #   gradio-client
-    #   llama-index-embeddings-huggingface
     #   mlx-audio
     #   sentence-transformers
     #   tokenizers
@@ -560,7 +558,6 @@ llama-index-core==0.11.23
     #   llama-index
     #   llama-index-agent-openai
     #   llama-index-cli
-    #   llama-index-embeddings-huggingface
     #   llama-index-embeddings-litellm
     #   llama-index-embeddings-openai
     #   llama-index-indices-managed-llama-cloud
@@ -572,8 +569,6 @@ llama-index-core==0.11.23
     #   llama-index-readers-file
     #   llama-index-readers-llama-parse
     #   llama-index-vector-stores-milvus
-llama-index-embeddings-huggingface==0.3.1
-    # via data-prep-kit-examples-dev-2
 llama-index-embeddings-litellm==0.2.2
     # via data-prep-kit-examples-dev-2
 llama-index-embeddings-openai==0.2.5
@@ -771,7 +766,6 @@ numpy==1.26.4
     #   pandas
     #   pyarrow
     #   pyloudnorm
-    #   pymilvus-model
     #   python-louvain
     #   pytorch-revgrad
     #   rapidocr
@@ -836,11 +830,10 @@ omegaconf==2.3.0 ; python_full_version < '3.14' or sys_platform == 'darwin'
     # via
     #   mlx-audio
     #   rapidocr
-onnxruntime==1.23.2
+onnxruntime==1.23.2 ; sys_platform == 'darwin'
     # via
     #   fastrtc
     #   fastrtc-moonshine-onnx
-    #   pymilvus-model
 openai==1.109.1
     # via
     #   litellm
@@ -981,7 +974,6 @@ protobuf==6.33.1
     #   onnxruntime
     #   proto-plus
     #   pymilvus
-    #   pymilvus-model
     #   ray
     #   transformers
 psutil==7.1.3
@@ -1103,8 +1095,6 @@ pymilvus==2.6.3
     # via
     #   data-prep-kit-examples-dev-2
     #   llama-index-vector-stores-milvus
-pymilvus-model==0.3.2
-    # via pymilvus
 pyobjc-core==12.1 ; sys_platform == 'darwin'
     # via
     #   pyobjc-framework-cocoa
@@ -1306,7 +1296,6 @@ scipy==1.16.3
     #   librosa
     #   mlx-vlm
     #   pyloudnorm
-    #   pymilvus-model
     #   scikit-image
     #   scikit-learn
     #   sentence-transformers
@@ -1321,9 +1310,7 @@ semantic-version==2.10.0 ; sys_platform == 'darwin'
 semchunk==2.2.2
     # via docling-core
 sentence-transformers==5.1.2
-    # via
-    #   data-prep-toolkit-transforms
-    #   llama-index-embeddings-huggingface
+    # via data-prep-toolkit-transforms
 sentencepiece==0.2.1
     # via
     #   data-prep-toolkit-transforms
@@ -1525,7 +1512,6 @@ transformers==4.57.1
     #   mlx-audio
     #   mlx-lm
     #   mlx-vlm
-    #   pymilvus-model
     #   sentence-transformers
     #   transformer-smaller-training-vocab
 triton==3.5.1 ; platform_machine == 'x86_64' and sys_platform == 'linux'
