@@ -18,9 +18,9 @@ MY_CONFIG = MyConfig ()
 # MY_CONFIG.COLLECTION_NAME = 'solar_system'
 
 
-MY_CONFIG.INPUT_DATA_DIR = "../data/papers"
-MY_CONFIG.OUTPUT_FOLDER = "output-papers"
-MY_CONFIG.COLLECTION_NAME = 'papers'
+MY_CONFIG.INPUT_DATA_DIR = "data"
+MY_CONFIG.OUTPUT_FOLDER = "output"
+MY_CONFIG.COLLECTION_NAME = 'docs'
 
 # MY_CONFIG.INPUT_DATA_DIR = "../data/fomc"
 # MY_CONFIG.OUTPUT_FOLDER = "output-fomc"
@@ -48,8 +48,12 @@ MY_CONFIG.OUTPUT_FOLDER_FINAL_MD = os.path.join(MY_CONFIG.OUTPUT_FOLDER_FINAL , 
 MY_CONFIG.DB_URI = './rag_1_dpk.db'  # For embedded instance
 
 # Embedding model
-MY_CONFIG.EMBEDDING_MODEL =  os.getenv("EMBEDDING_MODEL", 'sentence-transformers/all-MiniLM-L6-v2')
-MY_CONFIG.EMBEDDING_LENGTH = int(os.getenv("EMBEDDING_LENGTH", 384))
+# MY_CONFIG.EMBEDDING_MODEL =  os.getenv("EMBEDDING_MODEL", 'sentence-transformers/all-MiniLM-L6-v2')
+# MY_CONFIG.EMBEDDING_LENGTH = int(os.getenv("EMBEDDING_LENGTH", 384))
+
+
+MY_CONFIG.EMBEDDING_MODEL =  os.getenv("EMBEDDING_MODEL", 'nebius/Qwen/Qwen3-Embedding-8B')
+MY_CONFIG.EMBEDDING_LENGTH = int(os.getenv("EMBEDDING_LENGTH", 4096))
 
 
 ## Chunking
@@ -57,7 +61,7 @@ MY_CONFIG.CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", 1024))
 MY_CONFIG.CHUNK_OVERLAP = int(os.getenv("CHUNK_OVERLAP", 100))
 
 ## LLM Model
-MY_CONFIG.LLM_MODEL = os.getenv("LLM_MODEL")
+MY_CONFIG.LLM_MODEL = os.getenv("LLM_MODEL", 'nebius/openai/gpt-oss-120b')
 
 
 

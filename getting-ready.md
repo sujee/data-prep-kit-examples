@@ -38,7 +38,6 @@ We use [uv](https://docs.astral.sh/uv/getting-started/installation/) package man
 
 ```bash
 uv sync
-source   .venv/bin/activate
 ```
 
 **Option 2: Using conda**

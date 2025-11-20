@@ -16,45 +16,8 @@ Here is the overall work flow.  For details see [RAG-explained](./RAG-explained.
 
 ## Step-2: Configuration
 
-Inspect common configuration in [my_config.py](my_config.py)
 
-Here you can set 
-
-- input data
-- embedding models 
-- ..etc
-
-Also here is an overview of [datasets](datasets.md) we have.
-
-## Step-3: Process Input Documents (RAG stage 1, 2 & 3)
-
-This code uses DPK to 
-
-- Extract text from PDFs (RAG stage-1)
-- Performs cleanups (de-dupes & other cleanups) (RAG stage-1)
-
-Here is the code: 
-
-- Python version: [1_dpk_process_python.ipynb](1_dpk_process_python.ipynb)
-- Ray version: [1_dpk_process_ray.ipynb](1_dpk_process_ray.ipynb)
-
-
-## Step-4: Load data into vector database  (RAG stage 4)
-
-Our vector database is [Milvus](https://milvus.io/)
-
-Run the code: [2_save_to_vector_db.ipynb](2_save_to_vector_db.ipynb)
-
-Be sure to [shutdown the notebook](#tips-close-the-notebook-kernels-to-release-the-dblock) before proceeding to the next step
-
-
-
-## Step-5: Query the documents using LLM (RAG steps 5, 6, 7, 8 & 9)
-
-We will use **Llama** as our LLM running on services like [Nebius Token Factory](https://tokenfactory.nebius.com/)  or   [Replicate](https://replicate.com/).
-
-
-### 5.1 - Create an `.env` file
+### 2.1 - Create an `.env` file
 
 Create an `.env` file (notice the dot in the file name in this directory with content like this
 
@@ -78,6 +41,41 @@ You can get API key from [Replicate](https://replicate.com/)
 LLM_MODEL = 'ibm-granite/granite-3.3-8b-instruct'
 REPLICATE_API_TOKEN=xyz
 ```
+
+### 2.2 (Optional) -   Inspect [my_config.py](my_config.py)
+
+Here you can set more parameters
+
+### 2.3 (Optional) - overview of [datasets](datasets.md) we have.
+
+## Step-3: Process Input Documents (RAG stage 1)
+
+This code uses DPK to 
+
+- Extract text from PDFs (RAG stage-1)
+- Performs cleanups (de-dupes & other cleanups) (RAG stage-1)
+
+Here is the code: 
+
+- Python version: [1_dpk_process_python.ipynb](1_dpk_process_python.ipynb)
+- Ray version: [1_dpk_process_ray.ipynb](1_dpk_process_ray.ipynb)
+
+
+## Step-4: Load data into vector database  (RAG stage 2,3,4)
+
+Our vector database is [Milvus](https://milvus.io/)
+
+Run the code: [2_save_to_vector_db.ipynb](2_save_to_vector_db.ipynb)
+
+Be sure to [shutdown the notebook](#tips-close-the-notebook-kernels-to-release-the-dblock) before proceeding to the next step
+
+
+
+## Step-5: Query the documents using LLM (RAG steps 5, 6, 7, 8 & 9)
+
+We will use an open source LLM running on services like [Nebius Token Factory](https://tokenfactory.nebius.com/)  or   [Replicate](https://replicate.com/).
+
+
 
 ### 5.2 - Run the query code
 

@@ -53,7 +53,7 @@ This repo has example code for preparing data using [Data Prep Kit](https://gith
     - [A quick start of Milvus](milvus/milvus_1_quick_start.ipynb) - Run an embedded milvus 
     - [Vector search of movie plots using Milvus](milvus/milvus_2_movie_search.ipynb) - load movie data, index it with embeddings, upload the data into milvus and run semantic queries
 - RAG - open source RAG pipeline/stacks
-    - [RAG for PDF documents](rag-pdf-1/)
+    - [RAG for PDF documents](rag-pdf-1/README.md)
 - Chat (RAG) with website is now a new project [allycat](https://github.com/The-AI-Alliance/allycat)
   - [older example here](rag-website-1/)
 
